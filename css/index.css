@@ -1,0 +1,114 @@
+/*头部广告区域*/
+.top-ads {
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    background-color: rgb(215, 37, 2);
+    position: relative;
+}
+.top-ads h4 {
+    /*margin-left:;*/
+    color: #fff;
+    font-size: 24px;
+    width: 820px;
+    margin: 0 auto;
+}
+
+.top-ads h4 button {
+    box-sizing: border-box;
+
+}
+
+
+.top-ads .close {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 10px;
+    top: 10px;
+    background-color: #fff;
+}
+
+/*banner 部分*/
+.banner {
+    width: 100%;
+    height: 745px;
+    background-color: #ccc;
+}
+
+/*开班信息*/
+.kb-box .kb-tab {
+    position: relative;
+    color: #fff;
+    width: 100%;
+    border-top: 2px solid #3688ff;
+}
+.kb-box .kb-tab li {
+    width: 65.5px;
+    height: 29px;
+    line-height: 29px;
+    border-right: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    text-align: center;
+    font-size: 12px;
+}
+
+.kb-box .kb-class table {
+    border-collapse: collapse;
+    border : 0;
+    color: #fff;
+    font-size: 16px;
+}
+
+.kb-box .kb-class table tr {
+    height: 74px;
+}
+.kb-box .kb-class td {
+    padding: 32px 34px;
+}
+.kb-box span.timeout {
+    padding: 8px 15px;
+    background-color: #636c76;
+    border-radius: 5px;
+}
+
+.kb-box span.signup {
+    display: block;
+    width: 147px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #6a6c6f;
+    color: #e1ff00;
+    text-align: center;
+}
+
+.box1 {
+    /*那么多人选择前端*/
+    width: 100%;
+    position: relative;
+}
+
+.box1 .ufo {
+    position: absolute;
+    top: 10px;
+    right:0;
+}
+
+.box1 .ufo2 {
+    left : 10px;
+    bottom: 10px;
+}
+
+.box1 h4 {
+    line-height: 100px;
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+
+}
+
+.box1 .hd {
+    padding-bottom: 38px;
+    background: url('../images/hd_bg.png') left bottom no-repeat;
+}

@@ -1,0 +1,28 @@
+body {
+    font-family: "微软雅黑", Arial;
+}
+/*版心*/
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    padding-bottom: 80px;
+    background-color: rgb(4, 21, 39);
+}
+
+/*导航栏部分*/
+.head {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(68, 68, 68);
+}
+
+.head .nav li {
+    line-height: 50px;
+}
+
+

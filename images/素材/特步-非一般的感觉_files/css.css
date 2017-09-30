@@ -1,0 +1,243 @@
+body {
+	background: rgb(255, 255, 255); width: 100%; font-family: "FZLanTingHei-L-GBK","GothamBook","helvetica","arial","Microsoft Yahei","Î¢ÈíÑÅºÚ",sans-serif; font-size: 14px; -ms-overflow-x: hidden; -ms-overflow-y: auto;
+}
+* {
+	box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+body {
+	margin: 0px; padding: 0px;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+div {
+	margin: 0px; padding: 0px;
+}
+span {
+	margin: 0px; padding: 0px;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+ol {
+	margin: 0px; padding: 0px;
+}
+li {
+	margin: 0px; padding: 0px;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+pre {
+	margin: 0px; padding: 0px;
+}
+dl {
+	margin: 0px; padding: 0px;
+}
+dt {
+	margin: 0px; padding: 0px;
+}
+dd {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+h4 {
+	margin: 0px; padding: 0px;
+}
+h5 {
+	margin: 0px; padding: 0px;
+}
+h6 {
+	margin: 0px; padding: 0px;
+}
+em {
+	margin: 0px; padding: 0px;
+}
+a {
+	margin: 0px; padding: 0px;
+}
+fieldset {
+	margin: 0px; padding: 0px;
+}
+legend {
+	margin: 0px; padding: 0px;
+}
+address {
+	margin: 0px; padding: 0px;
+}
+label {
+	margin: 0px; padding: 0px;
+}
+textarea {
+	margin: 0px; padding: 0px;
+}
+select {
+	margin: 0px; padding: 0px;
+}
+input {
+	margin: 0px; padding: 0px;
+}
+figure {
+	margin: 0px; padding: 0px;
+}
+table {
+	margin: 0px; padding: 0px;
+}
+th {
+	margin: 0px; padding: 0px;
+}
+td {
+	margin: 0px; padding: 0px;
+}
+b {
+	margin: 0px; padding: 0px;
+}
+i {
+	margin: 0px; padding: 0px;
+}
+.hy-main input[type=text]:focus {
+	border-color: rgba(140, 215, 255, 0.75); transition:border 0.2s linear, box-shadow 0.5s linear; box-shadow: 0px 0px 8px rgba(140,215,225,0.5); -moz-transition: border linear .2s, -moz-box-shadow linear .5s; -webkit-transition: border linear .2s, -webkit-box-shadow linear .5s; -moz-box-shadow: 0 0 8px rgba(140, 215, 225.5); -webkit-box-shadow: 0 0 8px rgba(140, 215, 225, 3);
+}
+.hy-main input[type=password]:focus {
+	border-color: rgba(140, 215, 255, 0.75); transition:border 0.2s linear, box-shadow 0.5s linear; box-shadow: 0px 0px 8px rgba(140,215,225,0.5); -moz-transition: border linear .2s, -moz-box-shadow linear .5s; -webkit-transition: border linear .2s, -webkit-box-shadow linear .5s; -moz-box-shadow: 0 0 8px rgba(140, 215, 225.5); -webkit-box-shadow: 0 0 8px rgba(140, 215, 225, 3);
+}
+.hy-main textarea:focus {
+	border-color: rgba(140, 215, 255, 0.75); transition:border 0.2s linear, box-shadow 0.5s linear; box-shadow: 0px 0px 8px rgba(140,215,225,0.5); -moz-transition: border linear .2s, -moz-box-shadow linear .5s; -webkit-transition: border linear .2s, -webkit-box-shadow linear .5s; -moz-box-shadow: 0 0 8px rgba(140, 215, 225.5); -webkit-box-shadow: 0 0 8px rgba(140, 215, 225, 3);
+}
+fieldset {
+	border: 0px currentColor; border-image: none;
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+ul {
+	list-style: none;
+}
+li {
+	list-style: none;
+}
+em {
+	font-style: normal;
+}
+i {
+	font-style: normal;
+}
+table {
+	border-collapse: collapse; border-spacing: 0;
+}
+a {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+a:hover {
+	color: rgb(240, 15, 18); text-decoration: none;
+}
+a:focus {
+	
+}
+input {
+	
+}
+button {
+	
+}
+select {
+	
+}
+textarea {
+	
+}
+h1 {
+	font-size: 100%; font-variant: normal;
+}
+h2 {
+	font-size: 100%; font-variant: normal;
+}
+h3 {
+	font-size: 100%; font-variant: normal;
+}
+h4 {
+	font-size: 100%; font-variant: normal;
+}
+h5 {
+	font-size: 100%; font-variant: normal;
+}
+h6 {
+	font-size: 100%; font-variant: normal;
+}
+input {
+	vertical-align: middle;
+}
+select {
+	vertical-align: middle;
+}
+img {
+	vertical-align: middle;
+}
+legend {
+	display: none;
+}
+textarea {
+	resize: none;
+}
+.clearfix::after {
+	height: 0px; line-height: 0; clear: both; display: block; visibility: hidden; content: "";
+}
+.clear {
+	clear: both;
+}
+.clearfix {
+	-ms-zoom: 1;
+}
+.mt10 {
+	margin-top: 10px;
+}
+.mt20 {
+	margin-top: 20px;
+}
+.pt10 {
+	padding-top: 10px;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.tr {
+	text-align: right;
+}
+.tl {
+	text-align: left;
+}
+.ov {
+	overflow: hidden;
+}
+.rel {
+	position: relative;
+}
+.tc {
+	text-align: center;
+}
+.none {
+	display: none;
+}
+.block {
+	display: block;
+}
+.mr10 {
+	margin-right: 10px;
+}
+input:-ms-input-placeholder {
+	color: rgb(221, 221, 221);
+}
+textarea:-ms-input-placeholder {
+	color: rgb(221, 221, 221);
+}

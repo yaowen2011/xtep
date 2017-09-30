@@ -1,0 +1,402 @@
+.oloxtl {
+	background: url("../images/wz-bg.jpg") no-repeat bottom / 100% auto rgb(255, 255, 255);
+}
+.snelt .article .pic {
+	background: rgb(255, 255, 255); width: 49%; float: left; position: relative;
+}
+.snelt .article .time {
+	width: 49%; float: right;
+}
+.snelt .article .tit {
+	width: 49%; float: right;
+}
+.snelt .article .con {
+	width: 49%; float: right;
+}
+.snelt .article .link {
+	width: 49%; float: right;
+}
+.snelt .article .time {
+	padding: 25px 0px 5px;
+}
+.snelt .article .time span {
+	color: rgb(102, 102, 102); font-size: 18px; border-bottom-color: rgb(102, 102, 102); border-bottom-width: 2px; border-bottom-style: solid; display: inline-block;
+}
+.snelt .article .tit {
+	height: 65px; line-height: 65px; font-size: 30px; font-weight: bold;
+}
+.snelt .article .tit a {
+	height: 65px; color: rgb(102, 102, 102); overflow: hidden; display: inline-block; white-space: nowrap; -ms-text-overflow: ellipsis; max-width: 100%;
+}
+.snelt .article .con {
+	color: rgb(132, 132, 132); line-height: 25px;
+}
+.snelt .article .con p {
+	margin-bottom: 20px;
+}
+.snelt .article .link {
+	margin-top: 10px;
+}
+.snelt .article .link a {
+	border: 1px solid rgb(89, 89, 89); transition:0.5s linear; border-image: none; width: 102px; height: 32px; text-align: center; color: rgb(89, 89, 89); line-height: 30px; display: inline-block;
+}
+.snelt .article .link a:hover {
+	background: rgb(230, 0, 18); border: 1px solid rgb(230, 0, 18); transition:0.5s linear; border-image: none; color: rgb(255, 255, 255);
+}
+.snelt .owl-prev {
+	padding: 0px; border: currentColor; border-image: none; top: 50%; width: 37px; height: 58px; line-height: 0; font-size: 0px; margin-top: -29px; display: block; position: absolute; cursor: pointer;
+}
+.snelt .owl-next {
+	padding: 0px; border: currentColor; border-image: none; top: 50%; width: 37px; height: 58px; line-height: 0; font-size: 0px; margin-top: -29px; display: block; position: absolute; cursor: pointer;
+}
+.snelt .owl-prev {
+	background: url("../images/lc.png") no-repeat center rgb(106, 106, 106); transition:0.3s linear; left: -100px;
+}
+.snelt .owl-prev:hover {
+	background: url("../images/lc.png") no-repeat center rgb(240, 15, 18); transition:0.3s linear;
+}
+.snelt .owl-next {
+	background: url("../images/rc.png") no-repeat center rgb(106, 106, 106); transition:0.3s linear; right: -100px;
+}
+.snelt .owl-next:hover {
+	background: url("../images/rc.png") no-repeat center rgb(240, 15, 18); transition:0.3s linear;
+}
+.solpt .owl-prev {
+	padding: 0px; border: currentColor; border-image: none; top: 50%; width: 37px; height: 58px; line-height: 0; font-size: 0px; margin-top: -29px; display: block; position: absolute; cursor: pointer;
+}
+.solpt .owl-next {
+	padding: 0px; border: currentColor; border-image: none; top: 50%; width: 37px; height: 58px; line-height: 0; font-size: 0px; margin-top: -29px; display: block; position: absolute; cursor: pointer;
+}
+.solpt .owl-prev {
+	background: url("../images/lc.png") no-repeat center rgb(106, 106, 106); transition:0.3s linear; left: -100px;
+}
+.solpt .owl-prev:hover {
+	background: url("../images/lc.png") no-repeat center rgb(240, 15, 18); transition:0.3s linear;
+}
+.solpt .owl-next {
+	background: url("../images/rc.png") no-repeat center rgb(106, 106, 106); transition:0.3s linear; right: -100px;
+}
+.solpt .owl-next:hover {
+	background: url("../images/rc.png") no-repeat center rgb(240, 15, 18); transition:0.3s linear;
+}
+.solpt .tit {
+	background: rgb(240, 15, 18); height: 72px; text-align: center; line-height: 72px; overflow: hidden; font-size: 26px; font-weight: bold;
+}
+.solpt .tit a {
+	width: 100%; color: rgb(255, 255, 255); display: block;
+}
+.solpt .con {
+	color: rgb(102, 102, 102); line-height: 25px; margin-top: 12px;
+}
+.floltx .solpt .owl-prev {
+	padding: 0px; border: currentColor; border-image: none; top: 50%; width: 37px; height: 58px; line-height: 0; font-size: 0px; margin-top: -29px; display: block; position: absolute; cursor: pointer;
+}
+.floltx .solpt .owl-next {
+	padding: 0px; border: currentColor; border-image: none; top: 50%; width: 37px; height: 58px; line-height: 0; font-size: 0px; margin-top: -29px; display: block; position: absolute; cursor: pointer;
+}
+.floltx .solpt .owl-prev {
+	background: url("../images/x1-1.png") no-repeat center; transition:0.3s linear; left: -100px;
+}
+.floltx .solpt .owl-prev:hover {
+	background: url("../images/x1-2.png") no-repeat center; transition:0.3s linear;
+}
+.floltx .solpt .owl-next {
+	background: url("../images/x2-1.png") no-repeat center; transition:0.3s linear; right: -100px;
+}
+.floltx .solpt .owl-next:hover {
+	background: url("../images/x2-2.png") no-repeat center; transition:0.3s linear;
+}
+.piclt .article .pic img {
+	width: 100%; height: auto;
+}
+.piclt .article .tit {
+	padding: 0px 15%; height: 30px; line-height: 30px; overflow: hidden; font-size: 14px;
+}
+.piclt .article .pic {
+	transition:0.5s; overflow: hidden;
+}
+.piclt .article .tit {
+	transition:0.5s; overflow: hidden;
+}
+.piclt .article .linkpic {
+	transition:0.5s; overflow: hidden; position: absolute;
+}
+.piclt .article .linkpic span {
+	background: rgb(230, 0, 18); transition:0.5s; left: 50%; width: 100px; text-align: center; bottom: 20px; color: rgb(255, 255, 255); line-height: 30px; margin-left: -50px; display: inline-block; position: absolute; opacity: 0; -moz-opacity: 0;
+}
+.piclt .article .linkpic img {
+	border-radius: 50%;
+}
+.piclt .article .pic a img {
+	transition:0.5s;
+}
+.piclt .article .pic a:hover img {
+	transition:0.5s; transform: scale(1.1);
+}
+.piclt .owl-prev {
+	padding: 0px; border: 1px solid rgb(221, 221, 221); border-image: none; top: -50px; width: 40px; height: 40px; line-height: 0; font-size: 0px; display: block; position: absolute; cursor: pointer;
+}
+.piclt .owl-next {
+	padding: 0px; border: 1px solid rgb(221, 221, 221); border-image: none; top: -50px; width: 40px; height: 40px; line-height: 0; font-size: 0px; display: block; position: absolute; cursor: pointer;
+}
+.piclt .owl-prev {
+	background: url("../images/lct.png") no-repeat center rgb(255, 255, 255); transition:0.3s linear; left: 0px;
+}
+.piclt .owl-prev:hover {
+	background: url("../images/lct2.png") no-repeat center rgb(240, 15, 18); transition:0.3s linear;
+}
+.piclt .owl-next {
+	background: url("../images/rct.png") no-repeat center rgb(255, 255, 255); transition:0.3s linear; right: 0px;
+}
+.piclt .owl-next:hover {
+	background: url("../images/rct2.png") no-repeat center rgb(240, 15, 18); transition:0.3s linear;
+}
+@media screen and (max-width:400px)
+{
+.piclt .owl-prev {
+	top: 80px;
+}
+.piclt .owl-next {
+	top: 80px;
+}
+.solpt .tit {
+	height: 45px; line-height: 45px; font-size: 18px;
+}
+}
+@media screen and (min-width:1026px)
+{
+.piclt .article .linkpic {
+	left: 0px; top: 0%; width: 90%; opacity: 0; transform: rotateY(-180deg); -moz-opacity: 0;
+}
+.piclt .article:hover .pic {
+	transition:0.5s;
+}
+.piclt .article:hover .tit {
+	transition:0.5s;
+}
+.piclt .article:hover .linkpic span {
+	transition:0.5s 0.7s; opacity: 1; -moz-opacity: 1;
+}
+.piclt .article:hover .linkpic {
+	transition:1s; left: 0%; top: 0%; width: 100%; opacity: 1; transform: rotateY(0deg); -moz-opacity: 1;
+}
+}
+@media screen and (max-width:1024px)
+{
+.piclt .article .linkpic {
+	display: none;
+}
+}
+.owl-carousel .owl-stage::after {
+	height: 0px; line-height: 0; clear: both; display: block; visibility: hidden; content: ".";
+}
+.owl-carousel {
+	padding: 40px 0px 80px; display: none; position: relative; z-index: 1; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.owl-wrapper-outer {
+	overflow: hidden;
+}
+.owl-carousel .owl-stage {
+	position: relative; -ms-touch-action: pan-y;
+}
+.owl-carousel .owl-stage-outer {
+	overflow: hidden; position: relative; -webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-height.owl-stage-outer {
+	transition:height 500ms ease-in-out; -moz-transition: height 500ms ease-in-out; -webkit-transition: height 500ms ease-in-out; -o-transition: height 500ms ease-in-out;
+}
+.owl-carousel .owl-video-wrapper {
+	background: rgb(0, 0, 0); height: 100%; position: relative;
+}
+.owl-controls .owl-nav div {
+	cursor: pointer; -ms-user-select: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; user-select: none;
+}
+.owl-controls .owl-dot {
+	cursor: pointer; -ms-user-select: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; user-select: none;
+}
+.owl-carousel .owl-video-play-icon {
+	background: url("owl-video-play.png") no-repeat; left: 50%; top: 50%; width: 80px; height: 80px; margin-top: -40px; margin-left: -40px; position: absolute; z-index: 1; cursor: pointer; transition-property: scale; transition-duration: 100ms; transition-timing-function: ease; -webkit-backface-visibility: hidden;
+}
+.owl-carousel .owl-video-play-icon:hover {
+	transform: scale(1.3); -webkit-transform: scale(1.3, 1.3); -moz-transform: scale(1.3, 1.3); -o-transform: scale(1.3, 1.3);
+}
+.owl-carousel .owl-video-playing .owl-video-tn {
+	display: none;
+}
+.owl-carousel .owl-video-playing .owl-video-play-icon {
+	display: none;
+}
+.owl-carousel .owl-video-tn {
+	background-position: center; height: 100%; opacity: 0; transition-property: opacity; transition-duration: 400ms; transition-timing-function: ease; background-repeat: no-repeat; background-size: contain; -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain;
+}
+.owl-carousel .owl-video-frame {
+	position: relative; z-index: 1;
+}
+.owl-loaded {
+	display: block;
+}
+.owl-loading {
+	display: block; opacity: 0;
+}
+.owl-hidden {
+	opacity: 0;
+}
+.owl-carousel .owl-refresh .owl-item {
+	display: none;
+}
+.owl-carousel .owl-item {
+	float: left; position: relative; min-height: 1px; -ms-user-select: none; -webkit-backface-visibility: hidden; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-user-select: none; -moz-user-select: none; user-select: none; -webkit-touch-callout: none;
+}
+.owl-text-select-on.owl-carousel .owl-item {
+	-webkit-user-select: all; -moz-user-select: all; user-select: all;
+}
+.owl-carousel .owl-grab {
+	cursor: move;
+}
+.owl-carousel .owl-item img.owl-lazy {
+	opacity: 0;
+}
+.owl-carousel .owl-item img {
+	width: 100%; display: block; opacity: 1; transition-property: opacity; transition-duration: 400ms; transition-timing-function: ease; -webkit-transform-style: preserve-3d;
+}
+.owl-carousel .backfacefix.owl-stage .owl-item {
+	-webkit-backface-visibility: hidden;
+}
+.owl-rtl {
+	direction: rtl;
+}
+.owl-rtl .owl-item {
+	float: right;
+}
+.no-js .owl-carousel {
+	display: block;
+}
+.animated {
+	animation-duration: 600ms; animation-fill-mode: both; -webkit-animation-duration: 600ms; -webkit-animation-fill-mode: both;
+}
+.owl-animated-in {
+	z-index: 0;
+}
+.owl-animated-out {
+	z-index: 1;
+}
+.fadeOut {
+	animation-name: fadeOut; -webkit-animation-name: fadeOut;
+}
+.top-nav .article a {
+	height: 55px; line-height: 55px; display: inline-block;
+}
+.top-nav .article a.cur {
+	border-bottom-color: rgb(33, 155, 241); border-bottom-width: 3px; border-bottom-style: solid;
+}
+.bclt-sild .owl-dots {
+	padding: 10px 0px; text-align: center;
+}
+.bclt-sild .owl-dots .owl-dot {
+	margin: 0px 3px; display: inline-block;
+}
+.bclt-sild .owl-dots .owl-dot span {
+	background: rgb(196, 196, 196); border-radius: 50%; width: 12px; height: 12px; display: block;
+}
+.bclt-sild .owl-dots .active.owl-dot span {
+	background: rgb(246, 100, 145);
+}
+@media screen and (max-width:1460px)
+{
+.snelt {
+	padding: 20px 2%; width: 100%;
+}
+.snelt .article .con {
+	overflow: hidden; max-height: 100px;
+}
+.snelt .owl-prev {
+	left: 2%;
+}
+.snelt .owl-next {
+	right: 2%;
+}
+}
+@media screen and (max-width:600px)
+{
+.snelt .article .pic {
+	width: 100%;
+}
+.snelt .article .time {
+	width: 100%;
+}
+.snelt .article .tit {
+	width: 100%;
+}
+.snelt .article .con {
+	width: 100%;
+}
+.snelt .article .link {
+	width: 100%;
+}
+.snelt .article .tit {
+	height: 40px; line-height: 40px; font-size: 18px;
+}
+.snelt .article .tit a {
+	height: 40px;
+}
+.snelt .owl-prev {
+	margin: 0px; top: 150px;
+}
+.snelt .owl-next {
+	margin: 0px; top: 150px;
+}
+.owl-carousel {
+	padding: 30px 0px;
+}
+.snelt .owl-prev {
+	background: url("../images/sol01.png") no-repeat center; transition:0.3s linear;
+}
+.snelt .owl-prev:hover {
+	background: url("../images/sol01.png") no-repeat center; transition:0.3s linear;
+}
+.snelt .owl-next {
+	background: url("../images/sol02.png") no-repeat center;
+}
+.snelt .owl-next:hover {
+	background: url("../images/sol02.png") no-repeat center; transition:0.3s linear;
+}
+.solpt .owl-prev {
+	background: url("../images/sol01.png") no-repeat center;
+}
+.solpt .owl-prev:hover {
+	background: url("../images/sol01.png") no-repeat center; transition:0.3s linear;
+}
+.solpt .owl-next {
+	background: url("../images/sol02.png") no-repeat center;
+}
+.solpt .owl-next:hover {
+	background: url("../images/sol02.png") no-repeat center; transition:0.3s linear;
+}
+}
+@media screen and (max-width:400px)
+{
+.snelt .owl-prev {
+	top: 100px;
+}
+.snelt .owl-next {
+	top: 100px;
+}
+}
+@media screen and (max-width:768px)
+{
+.solpt {
+	width: 100%; overflow: hidden;
+}
+.solpt .owl-prev {
+	top: 150px; display: none;
+}
+.solpt .owl-next {
+	top: 150px; display: none;
+}
+.solpt .owl-prev {
+	left: 0px;
+}
+.solpt .owl-next {
+	right: 0px;
+}
+}

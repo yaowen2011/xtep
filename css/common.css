@@ -1,10 +1,13 @@
-body {
-    font-family: "微软雅黑", Arial;
-}
 /*版心*/
 .w {
-    width: 1200px;
+    width: 1280px;
     margin: 0 auto;
+}
+
+body {
+    background: #FEFEFE;
+    font-size: 14px;
+    font-family: "FZLanTingHei-L-GBK", "GothamBook", "helvetica", "arial", "Microsoft Yahei", "微软雅黑", sans-serif;
 }
 
 .box {
@@ -16,13 +19,122 @@ body {
 
 /*导航栏部分*/
 .head {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 50px;
-    background-color: rgb(68, 68, 68);
+    height: 60px;
+    font-size: 14px;
+    /*background-color: rgba(0, 0, 0, .4);*/
+    background: url("../images/bgsp.png") 0 0 repeat;
+    z-index: 10;
+}
+
+.head .logo h1 {
+    text-indent: -999em;
+    width: 182px;
+    line-height: 60px;
+    background: url("../images/logo.png") 0 0 no-repeat;
+}
+
+.head .nav {
+    padding-left: 26px;
+    position: relative;
 }
 
 .head .nav li {
-    line-height: 50px;
+    /*position: relative;*/
+}
+
+.head .nav li > a {
+    position: relative;
+    display: inline-block;
+    padding: 0 30px;
+    line-height: 60px;
+    height: 60px;
+    color: #fff;
+}
+
+.head .nav li > a span {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    /*color: red;*/
+    background-color: red;
+
+    transition: all .3s ease-in;
+}
+
+.head .nav li:hover > a span {
+    width: 100%;
+}
+
+/*.head li:hover .slide {*/
+/*display: block;*/
+/*}*/
+/*修饰hover 背景*/
+.head .bgsp {
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 60px;
+    height: 330px;
+    background: url("../images/bgsp.png") 0 0 repeat;
+}
+
+.head li .slide {
+    position: absolute;
+    display: none;
+    /*opacity: 0;*/
+    left: 60px;
+    top: 60px;
+    width: 1200px;
+    /*height: 330px;*/
+    padding: 35px 0;
+    /*background-color: rgba(0, 0, 0, .6);*/
+    /*background: url("../images/bgsp.png") 0 0 repeat;*/
+    /*-webkit-transition: all  .4s;*/
+    /*-moz-transition: all   .4s;*/
+    /*-ms-transition: all   .4s;*/
+    /*-o-transition: all   .4s;*/
+    /*transition: all   .4s;*/
+    color: #fff;
+}
+
+.head li .slide dl {
+    position: relative;
+    top: 0;
+    left: 100px;
+    height: 260px;
+    border-right: 1px solid #666;
+    padding: 0 60px;
+}
+
+.head li .slide dl dt {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.head li .slide dl dd {
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.head li .slide dl dd a {
+    transition: all .5s ease;
+}
+
+.head li .slide dl dd a:hover {
+    color: rgb(230, 0, 18);
+}
+
+.head li a {
+    color: #fff;
 }
 
 

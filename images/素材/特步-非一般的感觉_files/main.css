@@ -1,0 +1,2436 @@
+.wrap {
+	margin: 0px auto; width: 1280px;
+}
+.disloc {
+	transition:0.8s;
+}
+.animate {
+	transition:0.8s;
+}
+.index-main {
+	background: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-top-width: 1px; border-top-style: solid; position: relative; z-index: 10;
+}
+.top {
+	background: url("../images/bg-col.png"); transition:0.5s linear; left: 0px; top: 0px; width: 100%; height: 60px; position: fixed; z-index: 20;
+}
+.top .logo {
+	left: 0px; top: 0px; position: absolute; z-index: 2;
+}
+.top-set.top {
+	background: rgb(255, 255, 255); transition:0.5s linear;
+}
+.moclt {
+	padding-left: 182px; position: relative;
+}
+.selt-bg {
+	background: url("../images/bgsp.png"); left: 0px; top: 60px; width: 100%; height: 330px; display: none; position: absolute; z-index: 10;
+}
+.nav {
+	margin-left: 30px; float: left; position: relative; z-index: 11;
+}
+.nav li {
+	padding: 0px 20px; float: left;
+}
+.nav li > a {
+	padding: 0px 5px; color: rgb(255, 255, 255); line-height: 60px; display: block; position: relative;
+}
+.top-set.top .nav li > a {
+	color: rgb(102, 102, 102);
+}
+.nav li > a span {
+	background: rgb(230, 0, 18); transition:0.3s ease-in; left: 50%; width: 0px; height: 3px; bottom: -1px; margin-left: 0px; position: absolute;
+}
+.nav li:hover > a span {
+	transition:0.3s ease-in; width: 90px; margin-left: -45px;
+}
+.nav li .slilt {
+	padding: 35px 0px; left: 0px; top: 60px; width: 1200px; display: none; position: absolute;
+}
+.nav li .slilt a {
+	color: rgb(255, 255, 255);
+}
+.nav li .slilt dl {
+	padding: 0px 60px; left: 100px; height: 260px; border-right-color: rgb(102, 102, 102); border-right-width: 1px; border-right-style: solid; float: left; position: relative; opacity: 0; -moz-opacity: 0;
+}
+.nav li .slilt dt {
+	line-height: 2; font-size: 20px; font-weight: bold; margin-bottom: 5px;
+}
+.nav li .slilt dd {
+	line-height: 25px;
+}
+.nav li .slilt dd a {
+	transition:0.5s;
+}
+.nav li .slilt dd a:hover {
+	transition:0.5s; color: rgb(230, 0, 18);
+}
+.textimg {
+	overflow: hidden;
+}
+.wrap.solpt {
+	width: 900px;
+}
+.melibn {
+	position: relative;
+}
+.melsi {
+	background: url("../images/bg-col.png"); left: 0px; top: 60px; width: 100%; display: none; position: absolute;
+}
+.melsi a {
+	text-align: center; color: rgb(255, 255, 255); line-height: 40px; display: block;
+}
+.melsi a:hover {
+	color: rgb(230, 0, 18);
+}
+@media screen and (max-width:1000px)
+{
+.nav li .slilt dl {
+	left: 0px; opacity: 1; -moz-opacity: 1;
+}
+}
+@media screen and (max-width:900px)
+{
+.wrap.solpt {
+	width: 100%;
+}
+}
+@media screen and (max-width:1024px)
+{
+.melsi {
+	background: rgb(178, 178, 178); left: 0px; top: 0px; width: 100%; display: none; position: relative;
+}
+.melsi a {
+	padding: 0px 5%; text-align: left; color: rgb(51, 51, 51); line-height: 40px; font-size: 16px; display: block;
+}
+}
+.pickt a {
+	overflow: hidden; display: block;
+}
+.pickt a img {
+	transition:0.5s;
+}
+.pickt a:hover img {
+	transition:0.5s;
+}
+.pickt a.disloc {
+	top: 50px; position: relative; opacity: 0; -moz-opacity: 0;
+}
+.pickt a.animate.disloc {
+	top: 0px; opacity: 1; -moz-opacity: 1;
+}
+.cplt {
+	border-top-color: rgb(255, 255, 255); border-top-width: 1px; border-top-style: solid;
+}
+.enl-chot {
+	background: url("../images/b-bg.png") repeat-y left top; padding: 15px 30px; height: 60px;
+}
+.enl-chot a {
+	background: rgb(255, 255, 255); margin: 0px 5px; border-radius: 15px; transition:0.3s ease-in; width: 30px; height: 30px; display: inline-block;
+}
+.enl-chot a.lang-lot {
+	background: url("../images/v1-2.png") no-repeat center rgb(230, 0, 18); transition:0.3s ease-in;
+}
+.enl-chot a.search {
+	background: url("../images/v2-1.png") no-repeat center rgb(255, 255, 255);
+}
+.enl-chot a.search:hover {
+	background: url("../images/v2-2.png") no-repeat center rgb(230, 0, 18); transition:0.3s ease-in;
+}
+.enl-chot a.glzx {
+	background: url("../images/v3-1.png") no-repeat center rgb(255, 255, 255);
+}
+.enl-chot a.glzx:hover {
+	background: url("../images/v3-2.png") no-repeat center rgb(230, 0, 18); transition:0.3s ease-in;
+}
+.olt-link {
+	padding: 0px 30px;
+}
+.olt-link a {
+	margin: 0px 15px; color: rgb(255, 255, 255); line-height: 60px; display: inline-block;
+}
+.olt-link a img {
+	margin-right: 3px;
+}
+.top-set.top .olt-link a {
+	color: rgb(102, 102, 102);
+}
+.olt-link a.oths {
+	background: url("../images/jh.png") no-repeat right; padding-right: 18px;
+}
+.top-set.top .olt-link a.oths {
+	background: url("../images/jh2.png") no-repeat right;
+}
+.cp-solt {
+	background: url("../images/cbj.jpg") repeat-x left top; padding-top: 65px;
+}
+.big-nit {
+	width: 48.5%; position: relative; z-index: 2;
+}
+.imgtos {
+	overflow: hidden;
+}
+.imgtos img {
+	transition:0.8s;
+}
+a:hover .imgtos img {
+	transition:0.8s; transform: scale(1.2);
+}
+.sel-webs {
+	background: url("../images/bg-col.png"); padding: 0px 15px; transition:0.6s; left: 0px; width: 100%; height: 45px; bottom: 0px; color: rgb(255, 255, 255); line-height: 45px; font-size: 12px; position: absolute;
+}
+a:hover .sel-webs {
+	background: rgb(216, 0, 17); transition:0.6s;
+}
+.sel-webs strong {
+	font-size: 16px; margin-right: 5px;
+}
+.sma-nit {
+	width: 51.5%; position: relative; z-index: 1;
+}
+.sma-nit li {
+	top: 0px; width: 46%; margin-bottom: 4%; margin-left: 4%; float: left; position: relative;
+}
+.sma-nit li:nth-child(2n) {
+	transition:1s; right: 25%;
+}
+.sma-nit li:nth-child(2n+1) {
+	transition:1s; left: 25%;
+}
+.animate.sma-nit li:nth-child(2n) {
+	transition:1s; right: 0px;
+}
+.animate.sma-nit li:nth-child(2n+1) {
+	transition:1s; left: 0px;
+}
+.osnit {
+	background: rgb(255, 255, 255); padding-top: 50px; position: relative; z-index: 10;
+}
+.osnit h2 {
+	text-align: center; color: rgb(51, 51, 51); line-height: 55px; font-size: 36px;
+}
+.osnit h2 span {
+	color: rgb(230, 0, 18);
+}
+.osnit h3 {
+	text-align: center; color: rgb(153, 153, 153); text-transform: uppercase; letter-spacing: 6px; font-weight: normal;
+}
+.nelx-set {
+	text-align: center; margin-top: 20px;
+}
+.nelx-set .silet {
+	display: inline-block;
+}
+.nelx-set .silet i {
+	display: none;
+}
+.nelx-set a {
+	background: rgb(141, 142, 144); margin: 0px 5px; padding: 0px 20px; transition:0.5s; color: rgb(255, 255, 255); line-height: 35px; vertical-align: middle; display: inline-block;
+}
+.flxtm {
+	padding: 0px 15px; color: rgb(255, 255, 255); line-height: 60px; display: inline-block; position: relative;
+}
+.flxtm > span {
+	background: rgb(230, 0, 18); transition:0.5s; left: 50%; width: 0px; height: 3px; bottom: 0px; position: absolute;
+}
+.flxtm .emlxt {
+	background: url("/images/bgsp.png"); left: 50%; top: 60px; width: 120px; text-align: center; margin-left: -60px; display: none; position: absolute;
+}
+.flxtm .emlxt a {
+	text-align: center; line-height: 40px; display: block;
+}
+.top-set.top .flxtm {
+	color: rgb(102, 102, 102);
+}
+.top-set.top .flxtm .emlxt a {
+	color: rgb(255, 255, 255);
+}
+.nelx-set a:hover {
+	background: rgb(240, 15, 18); transition:0.5s; color: rgb(255, 255, 255);
+}
+.nelx-set a.cur {
+	background: rgb(240, 15, 18); transition:0.5s; color: rgb(255, 255, 255);
+}
+.nelx-set span {
+	background: url("../images/dd.jpg") no-repeat left; padding-left: 18px; margin-left: 15px; vertical-align: middle; display: inline-block;
+}
+.nelx-set span .olt01 {
+	background: rgb(141, 142, 144); padding: 0px 6px; border: currentColor; border-image: none; height: 35px; float: left;
+}
+.nelx-set span .olt02 {
+	background: url("../images/fd.png") no-repeat center rgb(240, 15, 18); border: currentColor; border-image: none; width: 40px; height: 35px; float: left; cursor: pointer;
+}
+.fikst span .olt01 {
+	background: rgba(182, 182, 182, 0.8); color: rgb(51, 51, 51);
+}
+.fikst a {
+	background: rgba(182, 182, 182, 0.8); color: rgb(51, 51, 51);
+}
+.olt01 {
+	color: rgb(255, 255, 255);
+}
+.fikst a:hover {
+	color: rgb(255, 255, 255);
+}
+.priolt {
+	padding: 40px 0px;
+}
+.letlx {
+	width: 78%; position: relative;
+}
+.letlx .bgslt {
+	background: url("../images/bg-col.png"); left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: 1;
+}
+.letlx .video-li-a {
+	background: url("../images/play.png") no-repeat center / 100% 100%; left: 50%; top: 50%; width: 100px; height: 100px; margin-top: -50px; margin-left: -50px; position: absolute; z-index: 2;
+}
+.tloltx {
+	width: 20%; height: 560px; overflow: auto; padding-right: 18px;
+}
+.tloltx img {
+	margin-bottom: 20px; float: left; display: block;
+}
+.big-video {
+	left: 0px; top: 0px; width: 100%; height: 100%; display: none; position: absolute; z-index: 3;
+}
+.demo {
+	position: relative;
+}
+.foot {
+	background: url("../images/xz25.jpg") no-repeat center / cover; padding: 45px 0px; width: 100%; border-top-color: rgb(240, 15, 18); border-top-width: 5px; border-top-style: solid; z-index: 1;
+}
+.foot .senlt {
+	padding-right: 60px; position: relative;
+}
+.foot dl {
+	width: 20%; float: left;
+}
+.foot dl.iomt {
+	top: 0px; width: 60px; right: 0px; position: absolute;
+}
+.foot dl dt {
+	color: rgb(255, 255, 255); line-height: 25px; font-weight: bold;
+}
+.foot dl dd a {
+	transition:0.3s ease-in; color: rgb(194, 194, 194); line-height: 25px; font-size: 12px; display: inline-block;
+}
+.foot dl dd a:hover {
+	transition:0.3s ease-in; color: rgb(230, 0, 18);
+}
+.wrap.b-flt {
+	background: url("../images/b-logo.png") no-repeat left 25px; height: 82px; color: rgb(194, 194, 194); line-height: 30px; padding-top: 20px; padding-left: 100px; font-size: 12px; margin-top: 35px; border-top-color: rgb(68, 68, 68); border-top-width: 1px; border-top-style: solid;
+}
+.b-flt .tit {
+	line-height: 20px;
+}
+.b-flt .tit strong {
+	color: rgb(255, 255, 255); font-size: 16px;
+}
+.xsd-choose {
+	background: rgb(48, 48, 48); border: 1px solid rgb(68, 68, 68); border-image: none; width: 145px; height: 32px; color: rgb(194, 194, 194); line-height: 30px; float: right; display: inline-block; position: relative;
+}
+.xsd-choose span {
+	padding: 0px 10px; width: 100%; height: 30px; font-size: 12px; display: block; cursor: pointer;
+}
+.xsd-choose span img {
+	margin-right: 5px;
+}
+.xsd-choose span img.fr {
+	transition:0.5s linear; margin-top: 10px; margin-right: 0px;
+}
+.xsd-choose span.cur img.fr {
+	transform: rotateZ(180deg); -webkit-transform: rotateZ(180deg); -moz-transform: rotateZ(180deg); -o-transform: rotateZ(180deg);
+}
+.xsd-choose ul {
+	background: rgb(48, 48, 48); border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(68, 68, 68) rgb(68, 68, 68) currentColor; border-image: none; left: -1px; width: 145px; bottom: 30px; font-size: 12px; display: none; position: absolute; z-index: 10;
+}
+.xsd-choose ul li a {
+	padding: 0px 10px; width: 100%; height: 30px; color: rgb(194, 194, 194); display: block;
+}
+.xsd-choose ul li a img {
+	margin-right: 5px;
+}
+.xsd-choose ul li a:hover {
+	background: rgb(25, 25, 25); text-decoration: none;
+}
+.fat-sild {
+	width: 60px; right: 10px; bottom: 30px; position: fixed; z-index: 20;
+}
+.fat-sild a {
+	border-radius: 50%; width: 60px; height: 60px; text-indent: -9999px; overflow: hidden; display: block;
+}
+.fat-sild a#gotop {
+	background: url("../images/xz27.png") no-repeat center rgba(230, 0, 18, 0.8); transition:0.5s;
+}
+.fat-sild a#gotop:hover {
+	background: url("../images/xz27.png") no-repeat center rgb(250, 46, 62); transition:0.5s;
+}
+.bg-col {
+	background: url("../images/bg-col.png"); left: 0px; top: 0px; width: 100%; height: 100%; display: none; position: fixed; z-index: 29;
+}
+.ewmimt {
+	left: 50%; top: 50%; width: 550px; height: 300px; margin-top: -150px; margin-left: -275px; display: none; position: fixed; z-index: 30;
+}
+.ewmimt .pic {
+	box-shadow: 0px 0px 15px #000;
+}
+.ewmimt .tit {
+	text-align: center; color: rgb(255, 255, 255); line-height: 40px;
+}
+.ewm01 {
+	left: -150px; width: 260px; float: left; position: relative; opacity: 0.3;
+}
+.ewm02 {
+	width: 260px; right: -150px; float: right; position: relative; opacity: 0.3;
+}
+.search-con {
+	background: rgb(255, 255, 255); padding: 30px; top: 60px; width: 394px; height: 285px; right: 0px; display: none; position: fixed; z-index: 25;
+}
+.search-con p {
+	color: rgb(51, 51, 51); line-height: 30px;
+}
+.search-con p span {
+	background: url("../images/in03.jpg") no-repeat; width: 334px; height: 30px; line-height: 30px; display: block; position: relative;
+}
+.search-con p .fsok {
+	background: none; padding: 0px 5px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 230px; height: 30px; line-height: 30px; position: absolute;
+}
+.search-con p .fsoq {
+	background: none; border: currentColor; border-image: none; top: 0px; width: 94px; height: 30px; right: 0px; position: absolute; cursor: pointer;
+}
+.search-con dl {
+	padding-top: 20px; margin-top: 40px; border-top-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: solid;
+}
+.search-con dl dt {
+	color: rgb(51, 51, 51); line-height: 30px;
+}
+.search-con dl dd {
+	line-height: 30px;
+}
+.search-con dl dd a {
+	line-height: 35px;
+}
+.olt-link .search-con dl dd a {
+	margin: 0px 20px 0px 0px; color: rgb(102, 102, 102); font-size: 12px; display: inline-block;
+}
+.olt-link .search-con dl dd a:hover {
+	color: rgb(0, 0, 0);
+}
+.mob-nav {
+	display: none;
+}
+.clolto {
+	background: url("../images/gbs.jpg") no-repeat; top: 5px; width: 20px; height: 20px; right: 5px; position: absolute;
+}
+.olcit {
+	background-position: center; width: 100%; height: 411px; display: table; background-repeat: no-repeat; background-size: auto 100%;
+}
+.olcit .silxtm {
+	text-align: center; color: rgb(255, 255, 255); vertical-align: middle; display: table-cell;
+}
+.olcit p.tit {
+	font-size: 36px; font-weight: bold;
+}
+.xltx {
+	line-height: 25px; font-size: 14px; margin-top: 12px;
+}
+.selt-map {
+	position: relative;
+}
+.map-solt {
+	width: 67%;
+}
+.lolt-red {
+	width: 33%; padding-top: 20px;
+}
+.lolt-red .tit {
+	padding: 0px 3%; line-height: 40px; font-size: 24px; font-weight: bold;
+}
+.drelt {
+	padding: 0px 3%;
+}
+.drelt select {
+	border: 1px solid rgb(221, 221, 221); border-image: none; width: 125px; height: 45px; color: rgb(102, 102, 102); margin-top: 10px; margin-right: 10px; float: left;
+}
+.drelt span {
+	margin-top: 10px; float: left;
+}
+.drelt span .nus01 {
+	background: url("../images/v2-1.png") no-repeat 5px; border: 1px solid rgb(221, 221, 221); border-image: none; width: 150px; height: 45px; padding-left: 25px; float: left;
+}
+.drelt span .nus02 {
+	background: rgb(230, 0, 18); border: currentColor; border-image: none; width: 65px; height: 45px; color: rgb(255, 255, 255); float: left; cursor: pointer;
+}
+.md-lb {
+	
+}
+.md-lb .selt {
+	color: rgb(102, 102, 102); line-height: 40px; padding-left: 3%;
+}
+.md-lb .selt span {
+	color: rgb(230, 0, 18);
+}
+.melixt {
+	height: 513px; padding-right: 20px;
+}
+.melixt dl {
+	padding: 15px 2% 15px 72px; border-top-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: solid; position: relative;
+}
+.melixt dl dt {
+	height: 30px; color: rgb(230, 0, 18); line-height: 30px; overflow: hidden; font-size: 16px;
+}
+.melixt dl dd {
+	line-height: 25px;
+}
+.melixt dl dd.olt {
+	color: rgb(153, 153, 153); line-height: 20px; font-size: 12px; margin-top: 10px;
+}
+.melixt dl .num {
+	background: url("../images/bs.jpg") no-repeat center; left: 30px; top: 18px; width: 33px; height: 43px; text-align: center; color: rgb(230, 0, 18); line-height: 30px; position: absolute;
+}
+.mob-sild {
+	display: none;
+}
+.news-con {
+	background: rgb(243, 243, 243); padding-bottom: 50px;
+}
+.calst {
+	background: rgb(255, 255, 255); padding: 0px 3%; height: 81px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.calst > .all-zx {
+	line-height: 80px; font-size: 20px; margin-right: 30px; float: left; display: block;
+}
+.calst > .all-zx:hover {
+	color: rgb(209, 0, 17);
+}
+.cholt {
+	background: url("../images/zx.jpg") no-repeat left; width: 140px; height: 80px; text-align: center; float: left; position: relative;
+}
+.cholt span {
+	background: url("../images/xle.jpg") no-repeat 90%; color: rgb(102, 102, 102); line-height: 80px; font-size: 20px; display: block;
+}
+.cholt p {
+	background: rgb(255, 255, 255); border-width: medium 1px 1px; border-style: none solid solid; border-color: currentColor rgb(221, 221, 221) rgb(221, 221, 221); border-image: none; left: 0px; top: 80px; width: 100%; display: none; position: absolute; z-index: 5;
+}
+.cholt p a {
+	width: 100%; text-align: center; line-height: 35px; font-size: 16px; display: block;
+}
+.felxt {
+	background: rgb(243, 243, 243); text-align: center; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.felxt h3 {
+	padding: 10px 0px; color: rgb(102, 102, 102); line-height: 40px; font-size: 28px; font-weight: normal;
+}
+.felxt h4 {
+	color: rgb(102, 102, 102); padding-bottom: 20px; font-weight: normal;
+}
+.felxt h4 span {
+	margin-right: 10px; display: inline-block;
+}
+.neslt-cn {
+	margin: 0px auto; padding: 20px 0px; width: 700px; color: rgb(102, 102, 102); line-height: 2; font-size: 14px;
+}
+.neslt-cn p {
+	font-size: 14px;
+}
+.neslt-cn img {
+	width: 100%; height: auto;
+}
+@media screen and (max-width:700px)
+{
+.neslt-cn {
+	padding: 0px 2%; width: 100%;
+}
+}
+.backlt {
+	text-align: right;
+}
+.backlt a {
+	background: rgb(240, 15, 18); width: 105px; text-align: center; color: rgb(255, 255, 255); line-height: 40px; display: inline-block;
+}
+.palgh {
+	padding: 10px 0px; border-top-color: rgb(221, 221, 221); border-bottom-color: rgb(221, 221, 221); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.palgh p {
+	padding: 5px 0px;
+}
+.flxt {
+	padding: 15px 0px;
+}
+.flxt .tc a {
+	margin: 0px 5px 10px; color: rgb(240, 15, 18); font-size: 16px; display: inline-block;
+}
+.tilpot {
+	text-align: center; color: rgb(102, 102, 102); line-height: 2; padding-top: 40px;
+}
+.selit {
+	padding: 40px 0px 60px;
+}
+.selit dl {
+	width: 25%; text-align: center; border-right-color: rgb(221, 221, 221); border-right-width: 1px; border-right-style: solid; float: left;
+}
+.selit dl dt {
+	text-align: center; margin-bottom: 10px;
+}
+.selit dl dt span {
+	background-position: center; border-radius: 50%; border: 1px solid rgb(221, 221, 221); transition:0.5s; border-image: none; width: 80px; height: 80px; overflow: hidden; display: inline-block; background-repeat: no-repeat; background-color: rgb(255, 255, 255);
+}
+.selit dl:hover dt span {
+	transition:0.5s; background-color: rgb(230, 0, 18);
+}
+.selit dl dt span.s01 {
+	background-image: url("../images/s1-1.png");
+}
+.selit dl:hover dt span.s01 {
+	background-image: url("../images/s1-2.png");
+}
+.selit dl dt span.s02 {
+	background-image: url("../images/s2-1.png");
+}
+.selit dl:hover dt span.s02 {
+	background-image: url("../images/s2-2.png");
+}
+.selit dl dt span.s03 {
+	background-image: url("../images/s3-1.png");
+}
+.selit dl:hover dt span.s03 {
+	background-image: url("../images/s3-2.png");
+}
+.selit dl dt span.s04 {
+	background-image: url("../images/s4-1.png");
+}
+.selit dl:hover dt span.s04 {
+	background-image: url("../images/s4-2.png");
+}
+.selit dl dd {
+	color: rgb(102, 102, 102);
+}
+.selit dl:hover dd {
+	color: rgb(230, 0, 18);
+}
+.selit dl dd strong {
+	color: rgb(51, 51, 51); font-size: 16px;
+}
+.selit dl:hover dd strong {
+	color: rgb(230, 0, 18);
+}
+.blixt {
+	background: url("../testimg/t23.jpg") no-repeat center; height: 235px; color: rgb(255, 255, 255); padding-top: 50px;
+}
+.blixt h2 {
+	text-align: center; color: rgb(255, 255, 255); font-size: 36px;
+}
+.blixt h3 {
+	text-align: center; color: rgb(238, 238, 238); text-transform: uppercase; line-height: 30px; letter-spacing: 6px; font-size: 12px; font-weight: normal;
+}
+.zlitm {
+	top: -60px; position: relative;
+}
+.clotx {
+	background: url("../testimg/t24.jpg") no-repeat center / cover;
+}
+.sldt {
+	text-align: center; padding-top: 30px;
+}
+.sldt span {
+	background: rgb(141, 142, 144); margin: 0px 5px; width: 100px; height: 30px; color: rgb(255, 255, 255); line-height: 30px; display: inline-block; cursor: pointer;
+}
+.sldt span.cur {
+	background: rgb(240, 15, 18);
+}
+.tsonl {
+	padding: 30px 0px;
+}
+.tsonl .bd {
+	text-align: center; color: rgb(102, 102, 102);
+}
+.tsonl .bd .tit {
+	font-size: 20px;
+}
+.tsonl .bd .con {
+	font-size: 14px; margin-top: 10px;
+}
+.setl-ol {
+	margin-top: 40px;
+}
+.setl-ol span {
+	background: url("../images/yp.png") no-repeat center / 100% 100%; width: 170px; height: 170px; text-align: left; color: rgb(51, 51, 51); padding-top: 20px; padding-left: 30px; font-size: 24px; display: inline-block;
+}
+.map-con {
+	position: relative;
+}
+.clitx {
+	background: rgb(255, 255, 255); top: 50%; width: 444px; right: 100px; margin-top: -170px; position: absolute;
+}
+.perlt {
+	height: 55px; line-height: 55px;
+}
+.perlt span {
+	background: rgb(51, 51, 51); width: 50%; text-align: center; color: rgb(255, 255, 255); font-size: 16px; float: left; display: block; cursor: pointer;
+}
+.perlt span.cur {
+	background: rgb(230, 0, 18);
+}
+.clotl {
+	padding: 20px 20px 40px; border: 2px solid rgb(230, 0, 18); border-image: none;
+}
+.lopt {
+	color: rgb(102, 102, 102); line-height: 1.8;
+}
+.lopt span {
+	background: rgb(231, 0, 18); margin: 5px 0px; padding: 2px 8px; color: rgb(255, 255, 255); font-size: 20px; display: inline-block;
+}
+.cmlit {
+	color: rgb(102, 102, 102); line-height: 1.8;
+}
+.cmlit p {
+	margin-top: 5px;
+}
+.cmlit p span {
+	background: rgb(234, 234, 234); padding: 0px 5px; display: inline-block;
+}
+.wb-setl {
+	padding: 50px 0px;
+}
+.wb-setl .tit {
+	color: rgb(230, 0, 18); line-height: 60px; font-size: 36px; font-weight: bold;
+}
+.wb-setl .con {
+	color: rgb(102, 102, 102); line-height: 1.6; margin-top: 20px;
+}
+.y-zps {
+	background: url("../testimg/t27.jpg") no-repeat center / cover; height: 261px;
+}
+.falt {
+	width: 33.33%; height: 261px; text-align: center; border-right-color: rgb(255, 255, 255); border-right-width: 1px; border-right-style: solid; display: table;
+}
+.falt a {
+	transition:0.5s; width: 100%; height: 100%; color: rgb(255, 255, 255); line-height: 2; font-size: 24px; vertical-align: middle; display: table-cell;
+}
+.falt a:hover {
+	background: rgb(230, 0, 18); transition:0.5s;
+}
+.topxt {
+	background: rgb(102, 102, 102); height: 61px;
+}
+.slatls {
+	padding: 30px 0px;
+}
+.pics {
+	text-align: center;
+}
+.yearnes {
+	background: url("../images/d2.jpg") repeat-y top;
+}
+.ofcs {
+	padding: 30px 0px 50px; width: 50.1%; position: relative;
+}
+.even.ofcs {
+	padding-left: 140px; float: right;
+}
+.odd.ofcs {
+	padding-right: 140px; float: left;
+}
+.ofcs .yearl {
+	top: 10px; width: 130px; text-align: center; color: rgb(102, 102, 102); font-size: 40px; border-bottom-color: rgb(211, 211, 211); border-bottom-width: 2px; border-bottom-style: solid; position: absolute;
+}
+.even.ofcs .yearl {
+	left: 0px;
+}
+.odd.ofcs .yearl {
+	right: 0px;
+}
+.even.ofcs span {
+	display: inline-block;
+}
+.ofcs .yearl i {
+	background: url("../images/yq.jpg"); width: 15px; height: 15px; bottom: -7px; display: block; position: absolute;
+}
+.even.ofcs .yearl i {
+	left: -5px;
+}
+.odd.ofcs .yearl i {
+	right: -5px;
+}
+.ofcs li {
+	background: url("../images/ds.jpg") no-repeat; color: rgb(102, 102, 102); line-height: 25px;
+}
+.even.ofcs li {
+	background-position: left 10px; padding-left: 12px;
+}
+.odd.ofcs li {
+	background-position: right 10px; text-align: right; padding-right: 12px;
+}
+.olit {
+	line-height: 25px; margin-top: 30px;
+}
+.chont {
+	padding: 50px 0px;
+}
+.colotx {
+	padding-bottom: 5px;
+}
+.colotx li img {
+	width: 100%;
+}
+.xfolt {
+	background: rgb(255, 255, 255); padding: 0px 10px 35px; left: 30px; top: 100px; width: 222px; position: fixed; z-index: 15; box-shadow: 0px 0px 3px #666;
+}
+.xfolt .menu-on {
+	display: none;
+}
+.xfolt h2 {
+	text-align: center; line-height: 70px; font-size: 32px; font-weight: normal; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.xfolt dl {
+	padding: 10px 15px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.xfolt dt {
+	background: url("../images/hx.jpg") no-repeat right; height: 40px; line-height: 40px; overflow: hidden; font-size: 18px;
+}
+.xfolt dd a {
+	line-height: 25px; display: block;
+}
+.xfolt h3 {
+	color: rgb(51, 51, 51); line-height: 45px; padding-left: 15px; font-size: 18px; font-weight: normal; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid; cursor: pointer;
+}
+.floltx {
+	background: url("../testimg/t30.jpg") no-repeat center / cover; padding-top: 100px; padding-bottom: 200px;
+}
+.floltx h2 {
+	text-align: center; color: rgb(255, 255, 255); line-height: 55px; font-size: 36px;
+}
+.floltx h3 {
+	text-align: center; color: rgb(153, 153, 153); text-transform: uppercase; letter-spacing: 6px; font-weight: normal;
+}
+.floltx .imgsht {
+	overflow: hidden; float: left; position: relative;
+}
+.floltx .imgsht span {
+	transition:0.6s; left: 50%; top: 50%; width: 0px; height: 0px; overflow: hidden; display: block; position: absolute;
+}
+.floltx .imgsht:hover span {
+	transition:0.6s; left: 0%; top: 0%; width: 100%; height: 100%;
+}
+.floltx .imgsht span img {
+	transition:1s; width: 100%; height: auto; opacity: 0.6;
+}
+.floltx .imgsht:hover span img {
+	transition:1s; opacity: 1; transform: rotateX(360deg);
+}
+.floltx .img01 {
+	width: 33.2%;
+}
+.floltx .img02 {
+	width: 49.8%;
+}
+.solpt .pic .lox {
+	background: rgb(240, 15, 18); padding: 15px; left: 10px; width: auto; bottom: 10px; color: rgb(255, 255, 255); font-size: 26px; display: inline-block; position: absolute; max-width: 90%;
+}
+.cnlixt {
+	height: 140px;
+}
+.cnlixt span {
+	background: rgb(51, 51, 51); width: 50%; height: 140px; text-align: center; color: rgb(255, 255, 255); float: left; display: block; cursor: pointer;
+}
+.cnlixt span.cur {
+	background: rgb(230, 0, 18);
+}
+.cnlixt span strong {
+	line-height: 140px; font-size: 56px; margin-right: 10px; vertical-align: middle; display: inline-block;
+}
+.cnlixt span i {
+	text-align: left; line-height: 1; padding-top: 0px; font-size: 18px; font-weight: bold; vertical-align: middle; display: inline-block;
+}
+.cnlixt span em {
+	font-size: 40px;
+}
+.lutlx {
+	background: rgb(0, 0, 0); color: rgb(255, 255, 255);
+}
+.lutlx .bd {
+	padding: 35px 0px;
+}
+.bilg-xt {
+	text-align: center;
+}
+.bilg-xt img {
+	width: auto; max-width: 100%;
+}
+.setl-img {
+	text-align: center; margin-top: 30px;
+}
+.setl-img p {
+	background: url("../images/xt.png") no-repeat right; width: 16%; text-align: left; display: inline-block; cursor: pointer;
+}
+.flixt {
+	background: rgb(255, 255, 255);
+}
+.recr-wrap h5 {
+	background: url("../images/bg_9.png") repeat-x 0px 0px; border-width: 2px 1px 1px; border-style: solid; border-color: rgb(185, 185, 185) rgb(221, 221, 221) rgb(221, 221, 221); line-height: 26px; overflow: hidden;
+}
+.recr-wrap h5 ul li {
+	text-align: center; color: rgb(51, 51, 51); padding-right: 1px; font-weight: normal; float: left; position: relative;
+}
+.recr-item-no {
+	width: 6%;
+}
+.recr-item-pos {
+	width: 14%;
+}
+.recr-item-comp {
+	width: 20%;
+}
+.recr-item-sar {
+	width: 12%;
+}
+.recr-item-quan {
+	width: 12%;
+}
+.recr-item-loc {
+	width: 12%;
+}
+.recr-item-pub {
+	width: 12%;
+}
+.recr-item-ope {
+	width: 12%;
+}
+.recr-wrap h5 ul li span {
+	height: 9px; right: 0px; bottom: 0px; border-right-color: rgb(221, 221, 221); border-right-width: 1px; border-right-style: solid; position: absolute;
+}
+.recr-list {
+	padding-bottom: 50px; margin-top: 2px;
+}
+.recr-list > li {
+	border-bottom-color: rgb(234, 234, 234); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.recr-list .active.recr-item .recr-txt {
+	display: block;
+}
+.recr-list ul {
+	background: rgb(248, 248, 248); border: 1px solid rgb(255, 255, 255); border-image: none; line-height: 26px; overflow: hidden;
+}
+.recr-list ul li {
+	text-align: center; color: rgb(102, 102, 102); line-height: 32px; padding-right: 1px; font-size: 12px; float: left;
+}
+.recr-list ul li a {
+	transition:0.3s; cursor: pointer; -moz-transition: all 0.3s ease 0s; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease 0s; -webkit-transition-delay: 0s;
+}
+.recr-list ul li a i {
+	background: url("../images/sprite_14.png") no-repeat -10px -17px; top: 2px; width: 13px; height: 13px; margin-right: 4px; display: inline-block; position: relative;
+}
+.recr-list ul li a:hover {
+	transition:0.3s; color: rgb(234, 91, 36); -moz-transition: all 0.3s ease 0s; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease 0s; -webkit-transition-delay: 0s;
+}
+.recr-txt {
+	border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(234, 234, 234) rgb(234, 234, 234) currentColor; border-image: none; color: rgb(102, 102, 102); padding-top: 20px; font-size: 12px; display: none;
+}
+.recr-txt p {
+	padding: 19px 0px; overflow: hidden; margin-top: 10px; border-top-color: rgb(234, 234, 234); border-top-width: 1px; border-top-style: solid;
+}
+.recr-txt p a {
+	background: rgb(230, 0, 18); border-radius: 4px; width: 114px; text-align: center; color: rgb(255, 255, 255); line-height: 35px; font-size: 12px; margin-right: 1%; float: right; display: block; -moz-border-radius: 4px; -webkit-border-radius: 4px;
+}
+.recr-txt dl {
+	margin: 0px 0px 10px 1%; line-height: 24px;
+}
+.recr-txt dl dt {
+	background: url("../images/xz02.jpg") no-repeat left; padding: 0px 1%; line-height: 34px; font-weight: bold; margin-bottom: 6px;
+}
+.recr-txt dl dd {
+	padding: 0px 1%; line-height: 24px;
+}
+.paltx {
+	background: rgb(230, 230, 230); padding: 20px 0px; margin-bottom: 25px;
+}
+.paltx li {
+	padding: 5px 0px; font-size: 12px;
+}
+.paltx li p {
+	display: inline-block;
+}
+.paltx li p span {
+	width: 100px; text-align: right; padding-right: 3px; display: inline-block;
+}
+.paltx li p .iolx {
+	border: 1px solid rgb(204, 204, 204); border-image: none; width: 400px; height: 30px; margin-right: 3px;
+}
+.paltx li p i {
+	color: rgb(153, 153, 153);
+}
+.paltx li p select {
+	border: 1px solid rgb(204, 204, 204); border-image: none; width: auto; height: 30px; color: rgb(102, 102, 102); margin-right: 10px;
+}
+.paltx li p .beilt {
+	background: rgb(230, 0, 18); border-radius: 5px; border: currentColor; border-image: none; width: 150px; height: 35px; color: rgb(255, 255, 255); cursor: pointer;
+}
+.soilt {
+	background: rgb(255, 255, 255); padding: 30px 0px;
+}
+.soilt h2 {
+	background: rgb(240, 15, 18); text-align: center; color: rgb(255, 255, 255); line-height: 70px; font-size: 30px;
+}
+.wbsl-ct {
+	width: 100%; overflow: hidden; position: relative;
+}
+.focst {
+	top: 0px; width: 50%; position: absolute;
+}
+.focst span {
+	background: url("../images/bg-col.png"); left: 0px; top: 0px; width: 100%; height: 100%; display: none; position: absolute;
+}
+.focst a {
+	display: block; position: relative;
+}
+.focst a em {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; opacity: 0; -moz-opacity: 0; -khtml-opacity: 0;
+}
+.focst p {
+	background: rgb(242, 242, 242); width: 33.35%; height: 90px; text-align: center; color: rgb(102, 102, 102); line-height: 1.3; padding-top: 20px; font-size: 26px; font-weight: bold;
+}
+.focst p i {
+	color: rgb(153, 153, 153); text-transform: uppercase; font-size: 12px; font-weight: normal;
+}
+.n01.focst {
+	left: 0px; position: relative;
+}
+.n02.focst {
+	left: 16.66%;
+}
+.n03.focst {
+	left: 33.33%;
+}
+.n04.focst {
+	left: 50%;
+}
+.n05.focst {
+	left: 66.66%;
+}
+.n06.focst {
+	left: 83.33%;
+}
+.qunlt {
+	background: url("../images/xz05.jpg") repeat-y 51% top; margin: 50px 0px; border: 1px solid rgb(221, 221, 221); border-image: none;
+}
+.loloc {
+	width: 50%;
+}
+.loloc .tc {
+	padding: 50px 0px;
+}
+.menlxt {
+	padding-top: 30px;
+}
+.menlxt dl {
+	width: 20%; text-align: center; float: left;
+}
+.mesnlt {
+	text-align: center; margin-top: 30px;
+}
+.mesnlt span {
+	background: rgb(51, 51, 51); padding: 0px 20px; color: rgb(255, 255, 255); line-height: 70px; font-size: 20px; display: inline-block;
+}
+.menlxt dl dt img {
+	max-width: 100%;
+}
+.menlxt dl dd {
+	font-size: 12px;
+}
+.cplt dl {
+	width: 33.33%; text-align: center; border-right-color: rgb(255, 255, 255); border-right-width: 1px; border-right-style: solid; float: left;
+}
+.cplt dl dt {
+	overflow: hidden;
+}
+.cplt dl dd {
+	line-height: 50px; font-size: 26px;
+}
+.cplt dl dd a.iknt {
+	line-height: 25px; font-size: 14px; display: inline-block;
+}
+.ptilxt {
+	width: 25%; overflow: hidden; border-right-color: rgb(255, 255, 255); border-right-width: 1px; border-right-style: solid; float: left; position: relative;
+}
+.ptilxt a dt {
+	overflow: hidden; position: relative;
+}
+.ptilxt a dt span {
+	background: rgb(230, 0, 18); transition:1.5s; position: absolute;
+}
+.ptilxt a:hover dt span {
+	transition:1.5s;
+}
+.ptilxt a dt span.line01 {
+	left: 0px; top: 0px; width: 0px; height: 3px;
+}
+.ptilxt a:hover dt span.line01 {
+	width: 100%;
+}
+.ptilxt a dt span.line02 {
+	top: 0px; width: 3px; height: 0px; right: 0px;
+}
+.ptilxt a:hover dt span.line02 {
+	height: 100%;
+}
+.ptilxt a dt span.line03 {
+	width: 0px; height: 3px; right: 0px; bottom: 0px;
+}
+.ptilxt a:hover dt span.line03 {
+	width: 100%;
+}
+.ptilxt a dt span.line04 {
+	left: 0px; width: 3px; height: 0px; bottom: 0px;
+}
+.ptilxt a:hover dt span.line04 {
+	height: 100%;
+}
+.ptilxt a dt img {
+	transition:1.5s; width: 100%;
+}
+.ptilxt a:hover dt img {
+	transition:1.5s; transform: scale(1.1);
+}
+.ptilxt a dd {
+	padding: 0px 3%; left: 0px; width: 100%; height: 40px; bottom: 0px; color: rgb(255, 255, 255); font-size: 18px; font-weight: bold; position: absolute; z-index: 2;
+}
+.ptilxt a dd span {
+	text-transform: uppercase; font-size: 12px; font-weight: normal; margin-left: 3px;
+}
+.ptilxt a .bg {
+	background: url("../images/xz19.png") repeat-x left top; transition:0.5s; left: 0px; width: 100%; height: 79px; bottom: -79px; position: absolute; z-index: 1;
+}
+.ptilxt a:hover .bg {
+	transition:0.5s; bottom: -79px;
+}
+.copyxl {
+	color: rgb(153, 153, 153); margin-top: 20px;
+}
+.oslotx {
+	color: rgb(153, 153, 153); margin-top: 20px;
+}
+.oslotx a {
+	margin: 0px 10px; transition:0.5s; color: rgb(153, 153, 153); display: inline-block;
+}
+.oslotx a.langt {
+	
+}
+.oslotx a:hover {
+	transition:0.5s; color: rgb(240, 15, 18);
+}
+.likxt {
+	margin-top: 20px; position: relative;
+}
+.likxt a {
+	background-position: center; margin: 0px 10px; border-radius: 50%; transition:0.5s; width: 45px; height: 45px; display: inline-block; position: relative; background-repeat: no-repeat; background-size: 60% auto; background-color: rgb(128, 128, 128);
+}
+.likxt a span {
+	left: 50%; top: -123px; width: 120px; height: 120px; overflow: hidden; margin-left: -60px; display: none; position: absolute;
+}
+.xfolt {
+	left: -222px;
+}
+.xfolt .menu-on {
+	background: url("../images/nlmt.png") no-repeat center / 100% 100%; top: 0px; width: 40px; height: 80px; right: -40px; display: block; position: absolute;
+}
+.xfolt .menu-off.menu-on {
+	background: url("../images/nlmt2.png") no-repeat 5px 15px / auto auto;
+}
+.likxt a:hover span {
+	display: block;
+}
+.likxt a.nelt01:hover span {
+	display: none;
+}
+.likxt a:hover {
+	transition:0.5s; background-color: rgb(232, 58, 58);
+}
+.likxt a.nelt01 {
+	background-image: url("../images/xz31.png");
+}
+.likxt a.nelt02 {
+	background-image: url("../images/xz32.png");
+}
+.likxt a.nelt03 {
+	background-image: url("../images/xz38.png");
+}
+.likxt a.nelt04 {
+	background-image: url("../images/xz33.png");
+}
+.likxt a.nelt05 {
+	background-image: url("../images/xz34.png");
+}
+.likxt a.nelt06 {
+	background-image: url("../images/xz36.png");
+}
+.ztl-con img {
+	width: 100%; height: auto;
+}
+.ztl-con-m img {
+	width: 100%; height: auto;
+}
+.ztl-con-m {
+	display: none;
+}
+.slilt > a {
+	display: none;
+}
+.nav li a i {
+	display: none;
+}
+.flxtm i img {
+	display: none;
+}
+.nav li .slilt dl a i {
+	display: none;
+}
+@media screen and (max-width:1400px)
+{
+.nav li {
+	padding: 0px 10px;
+}
+.olt-link a {
+	margin: 0px 6px;
+}
+}
+@media screen and (max-width:1280px)
+{
+.wrap {
+	padding: 0px 2%; width: 100%;
+}
+.neslt-cn {
+	padding: 20px 2%;
+}
+.wb-setl {
+	padding: 20px 2%;
+}
+.enl-chot {
+	display: none;
+}
+}
+@media screen and (min-width:1026px)
+{
+.flxtm:hover > span {
+	transition:0.5s; left: 0px; width: 100%;
+}
+}
+@media screen and (max-width:550px)
+{
+.ewmimt {
+	left: 0px; width: 100%; margin-top: -60px; margin-left: 0px;
+}
+.ewm01 {
+	width: 46%;
+}
+.ewm02 {
+	width: 46%;
+}
+.ewm01 img {
+	width: 100%;
+}
+.ewm02 img {
+	width: 100%;
+}
+.clitx {
+	top: 0px; width: 100%; right: 0px; margin-top: 0px; position: relative;
+}
+.perlt span {
+	font-size: 12px;
+}
+.y-zps {
+	height: 150px;
+}
+.falt {
+	height: 150px;
+}
+.falt a {
+	font-size: 16px;
+}
+.olit {
+	overflow: hidden; font-size: 12px; margin-top: 10px; max-height: 50px;
+}
+.chont {
+	padding: 0px 2%;
+}
+.solpt .pic .lox {
+	font-size: 14px;
+}
+.soilt h2 {
+	line-height: 50px; font-size: 18px;
+}
+}
+@media screen and (max-width:1025px)
+{
+.nav li a i {
+	margin-left: 10px; display: inline-block;
+}
+.nav li .slilt dl a i {
+	margin-left: 10px; display: inline-block;
+}
+body {
+	padding-top: 60px;
+}
+.top {
+	background: rgb(255, 255, 255);
+}
+.enl-chot {
+	display: block;
+}
+.moclt {
+	background: rgb(255, 255, 255); margin: 0px; padding: 0px; left: 0px; top: 60px; width: 100%; overflow: auto; display: none; position: fixed; z-index: 20;
+}
+.mob-nav {
+	background: url("../images/nlm.png") no-repeat center / auto 50%; width: 60px; height: 60px; display: block;
+}
+.top-set .mob-nav {
+	background: url("../images/nlm.png") no-repeat center / auto 50%;
+}
+.nav {
+	margin: 0px; padding: 0px; width: 100%;
+}
+.nav li {
+	margin: 0px; padding: 0px; left: -40px; top: 0px; width: 100%; height: auto; text-align: left; position: relative;
+}
+.top .nav li > a {
+	background: rgb(89, 89, 89); height: 50px; color: rgb(255, 255, 255); line-height: 49px; padding-left: 3%; font-size: 16px; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.top-set.top .nav li > a {
+	background: rgb(89, 89, 89); height: 50px; color: rgb(255, 255, 255); line-height: 49px; padding-left: 3%; font-size: 16px; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.nav li a span {
+	display: none;
+}
+.nav li .slilt {
+	padding: 0px; left: 0px; top: 0px; width: 100%; position: relative;
+}
+.nav li .slilt dl {
+	border-width: medium medium 1px; border-style: none none solid; border-color: currentColor currentColor rgb(255, 255, 255); padding: 0px; border-image: none; width: 100%; height: auto;
+}
+.nav li .slilt dl a {
+	background: rgb(178, 178, 178); padding: 0px 5%; transition:0.5s; color: rgb(51, 51, 51); line-height: 49px; font-size: 16px; display: block;
+}
+.nav li .slilt dl a.cur {
+	background: rgb(215, 20, 24); transition:0.5s; color: rgb(255, 255, 255);
+}
+.nav li .slilt dl dt {
+	line-height: 35px; font-size: 14px; font-weight: normal; margin-bottom: 0px;
+}
+.nav li .slilt dl dd {
+	display: none;
+}
+.nav li .slilt dl dd a {
+	background: url("../images/cs02.png") no-repeat 5% rgb(229, 229, 229); text-indent: 12px; border-top-color: rgb(255, 255, 255); border-top-width: 1px; border-top-style: solid;
+}
+.nav li .slilt dd img {
+	display: none;
+}
+.flxtm i img {
+	margin-left: 10px; display: inline-block;
+}
+.olt-link {
+	background: rgb(89, 89, 89); padding: 0px; width: 100%;
+}
+.olt-link a {
+	margin: 0px; padding: 0px 3%; color: rgb(255, 255, 255); line-height: 50px; font-size: 16px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.flxtm {
+	margin: 0px; padding: 0px 3%; color: rgb(255, 255, 255); line-height: 50px; font-size: 16px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.flxtm {
+	padding: 0px;
+}
+.top .olt-link a {
+	color: rgb(255, 255, 255); font-size: 16px;
+}
+.top-set.top .olt-link a {
+	color: rgb(255, 255, 255); font-size: 16px;
+}
+.top-set.top .flxtm .emlxt a {
+	color: rgb(51, 51, 51);
+}
+.top-set.top .olt-link .search-con a {
+	color: rgb(102, 102, 102); font-size: 12px;
+}
+.flxtm .emlxt {
+	background: rgb(178, 178, 178); margin: 0px; padding: 0px 2%; left: 0px; top: 0px; width: 100%; text-align: left; position: relative;
+}
+.flxtm .emlxt a {
+	border: currentColor; border-image: none; height: 50px; text-align: left; color: rgb(51, 51, 51); line-height: 49px;
+}
+.enl-chot {
+	padding: 15px 2%; width: 100%; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid; float: left;
+}
+.search-con {
+	background: rgb(255, 255, 255); left: 0px; top: 0px; width: 100%; height: 100%; position: fixed;
+}
+.search-con p span {
+	background: url("../images/in03.jpg") no-repeat right; width: 260px;
+}
+.search-con p .fsok {
+	width: 160px;
+}
+.map-solt {
+	width: 100%;
+}
+.mob-sild {
+	background: url("../images/nlmt.png") no-repeat center / 100% 100%; left: 0px; top: 10px; width: 40px; height: 80px; display: block; position: absolute; z-index: 10;
+}
+.lolt-red {
+	background: rgb(255, 255, 255); left: -260px; top: 60px; width: 260px; height: 100%; position: fixed; z-index: 11;
+}
+.drelt select {
+	width: 100px; height: 35px;
+}
+.drelt span .nus01 {
+	height: 35px;
+}
+.drelt span .nus02 {
+	height: 35px;
+}
+.lolt-red .tit {
+	line-height: 35px; font-size: 18px;
+}
+.wb-setl .tit {
+	line-height: 40px; font-size: 24px;
+}
+.slatls .pics img {
+	width: 80%; height: auto;
+}
+.topxt {
+	display: none;
+}
+.flitx {
+	width: 100%;
+}
+.olt-link a img {
+	display: none;
+}
+.flxtm > img {
+	display: none;
+}
+.top-set.top .flxtm {
+	color: rgb(255, 255, 255);
+}
+.nav li .slilt > a {
+	background: rgb(178, 178, 178); padding: 0px 5%; color: rgb(51, 51, 51); line-height: 50px; font-size: 16px; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+}
+@media screen and (max-width:640px)
+{
+.xfolt {
+	display: none;
+}
+.ztl-con-m {
+	display: block;
+}
+.ztl-con {
+	display: none;
+}
+.likxt a:hover span {
+	display: none;
+}
+.likxt a span {
+	left: 50%; top: auto; width: 120px; height: 120px; bottom: 100px; overflow: hidden; margin-left: -60px; display: none; position: fixed; z-index: 999;
+}
+.osnit {
+	padding-top: 15px;
+}
+.ptilxt {
+	width: 50%; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.ptilxt a dd {
+	padding: 15px 0px; height: auto; text-align: center; color: rgb(51, 51, 51); line-height: 1.3; font-size: 16px; position: relative;
+}
+.ptilxt a dd span {
+	margin: 0px; color: rgb(153, 153, 153); font-size: 10px; display: block;
+}
+}
+@media screen and (max-width:768px)
+{
+.foot .senlt {
+	padding: 0px 2%;
+}
+.foot {
+	
+}
+.letlx {
+	width: 100%;
+}
+.big-nit {
+	width: 100%;
+}
+.sma-nit {
+	width: 100%;
+}
+.sma-nit {
+	margin-top: 15px;
+}
+.sma-nit li {
+	width: 49%; margin-bottom: 2%; margin-left: 2%;
+}
+.sma-nit li:nth-child(2n-1) {
+	margin-left: 0px;
+}
+.tloltx {
+	width: 100%; height: 80px; overflow: auto; padding-bottom: 20px; margin-top: 15px; white-space: nowrap;
+}
+.tloltx img {
+	width: 107px; height: 60px; margin-right: 10px; margin-bottom: 0px;
+}
+.nelx-set .silet {
+	margin: 0px auto; width: 96%; text-align: left; display: block; position: relative; min-width: 300px;
+}
+.nelx-set .silet i {
+	background: url("../images/cs01.png") no-repeat 97% rgb(215, 20, 24); padding: 0px 2%; width: 100%; height: 50px; color: rgb(255, 255, 255); line-height: 50px; display: block;
+}
+.nelx-set .silet i.backl {
+	
+}
+.nelx-set .silet p {
+	left: 0px; top: 50px; width: 100%; display: none; position: absolute; z-index: 8;
+}
+.nelx-set .silet p a {
+	background: rgb(89, 89, 89); margin: 0px; padding: 0px 2%; width: 100%; color: rgb(255, 255, 255); line-height: 50px; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.nelx-set span {
+	background: none; margin: 10px auto 0px; padding: 0px 40px 0px 0px; width: 96%; height: 35px; display: block; position: relative;
+}
+.nelx-set span .olt01 {
+	width: 100%;
+}
+.nelx-set span .olt02 {
+	top: 0px; right: 0px; position: absolute;
+}
+.cp-solt {
+	padding-top: 10px;
+}
+.nelx-set > a {
+	margin-bottom: 5px;
+}
+.foot dl {
+	width: 100%;
+}
+.foot dl.iomt {
+	width: 100%; position: relative;
+}
+.foot dl dd {
+	line-height: 40px; display: none;
+}
+.foot dl dd a {
+	width: 100%; line-height: 40px; display: block;
+}
+.foot dl dt {
+	background: url("../images/sj-b2.png") no-repeat 97% / auto 15%; height: 50px; line-height: 50px; border-bottom-color: rgb(102, 102, 102); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.xsd-choose {
+	float: none;
+}
+.wrap.b-flt {
+	height: auto;
+}
+.b-flt .tit {
+	padding-bottom: 20px;
+}
+.b-flt .tit strong {
+	display: none;
+}
+.letlx .video-li-a {
+	width: 60px; height: 60px; margin-top: -30px; margin-left: -30px;
+}
+.priolt {
+	padding: 0px 0px 40px;
+}
+.olcit {
+	height: 260px;
+}
+.olcit p.tit {
+	font-size: 18px;
+}
+.felxt h3 {
+	padding: 10px 2%; line-height: 25px; font-size: 16px;
+}
+.yearnes {
+	background: none;
+}
+.ofcs {
+	padding: 35px 0px 0px; width: 100%;
+}
+.ofcs .yearl {
+	border: currentColor; border-image: none; width: 100%; text-align: center; margin-bottom: 25px; position: relative;
+}
+.ofcs .yearl span {
+	padding: 0px 10px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 2px; border-bottom-style: solid; display: inline-block;
+}
+.ofcs .yearl i {
+	display: none;
+}
+.ofcs li {
+	background-position: left 12px; padding-left: 12px;
+}
+.cnlixt {
+	height: 80px;
+}
+.cnlixt span {
+	height: 80px;
+}
+.cnlixt span strong {
+	line-height: 80px; font-size: 24px;
+}
+.cnlixt span i {
+	font-size: 12px;
+}
+.cnlixt span em {
+	font-size: 14px;
+}
+.setl-img p {
+	width: 15%;
+}
+.recr-item-no {
+	display: none;
+}
+.recr-item-comp {
+	display: none;
+}
+.recr-item-sar {
+	display: none;
+}
+.recr-item-loc {
+	display: none;
+}
+.recr-item-pub {
+	display: none;
+}
+.recr-item-ope {
+	width: 25%;
+}
+.recr-item-quan {
+	width: 20%;
+}
+.recr-item-pos {
+	width: 55%;
+}
+.paltx li p {
+	width: 100%; padding-left: 100px; margin-bottom: 5px; position: relative;
+}
+.paltx li p span {
+	left: 0px; top: 5px; width: 95px; position: absolute;
+}
+.paltx li p .iolx {
+	width: 100%;
+}
+.paltx li p select {
+	width: 90px;
+}
+.xltx {
+	overflow: hidden; max-height: 100px;
+}
+.focst {
+	left: 0px; top: 0px; width: 100%; position: relative;
+}
+.n01.focst {
+	left: 0px; position: relative;
+}
+.n02.focst {
+	left: 0px;
+}
+.n03.focst {
+	left: 0px;
+}
+.n04.focst {
+	left: 0px;
+}
+.n05.focst {
+	left: 0px;
+}
+.n06.focst {
+	left: 0px;
+}
+.focst p {
+	width: 100%; line-height: 1.5; font-size: 16px;
+}
+.qunlt {
+	background: none; margin: 30px 0px;
+}
+.loloc {
+	width: 100%;
+}
+.xltx span {
+	display: none;
+}
+.osnit h2 {
+	line-height: 30px; font-size: 20px;
+}
+.osnit h3 {
+	font-size: 12px;
+}
+.search-con dl {
+	margin-top: 20px;
+}
+.search-con p span {
+	background: url("../images/in03.jpg") no-repeat right rgb(235, 235, 235); width: 100%; padding-right: 94px;
+}
+.search-con p .fsok {
+	width: 100%;
+}
+.cplt dl dd {
+	line-height: 40px; font-size: 16px;
+}
+}
+@media screen and (max-width:640px)
+{
+.nelx-set span {
+	display: none;
+}
+}
+@media screen and (max-width:400px)
+{
+.olcit {
+	height: 160px;
+}
+.cnlixt span strong {
+	margin: 0px; width: 100%; text-align: center; line-height: 40px; display: block;
+}
+.cnlixt span i {
+	text-align: center;
+}
+.likxt a {
+	margin: 0px 5px; width: 40px; height: 40px;
+}
+.oslotx a {
+	font-size: 12px;
+}
+.copyxl {
+	font-size: 12px;
+}
+}
+.ablct {
+	background: url("../testimg/xz03.png"); transition:0.8s; left: 50%; top: 0px; width: 0px; height: 100%; overflow: hidden; position: absolute; z-index: 5;
+}
+.clait {
+	background: url("../testimg/xz05.png");
+}
+.flex-active-slide .ablct {
+	transition:1.5s; left: 37%; width: 26%; text-align: center;
+}
+.setimg {
+	transition:0.5s; text-align: center; padding-top: 320px; position: relative; opacity: 0; -moz-opacity: 0;
+}
+.setimg img {
+	display: inline-block;
+}
+.flex-active-slide .setimg {
+	transition:1.2s 1s; opacity: 1; -moz-opacity: 1;
+}
+.linlt {
+	transition:0.5s; top: 50px; text-align: center; margin-top: 110px; position: relative; opacity: 0; -moz-opacity: 0;
+}
+.flex-active-slide .linlt {
+	transition:1.2s 1.5s; top: 0px; opacity: 1; -moz-opacity: 1;
+}
+.linlt a {
+	margin: 0px 5px; border: 1px solid rgb(255, 255, 255); border-image: none; width: 100px; height: 35px; color: rgb(255, 255, 255); line-height: 33px; display: inline-block;
+}
+.linlt a:hover {
+	border-color: rgb(230, 0, 18); background-color: rgb(230, 0, 18);
+}
+.linlt a.mel01 {
+	border-color: rgb(230, 0, 18); background-color: rgb(230, 0, 18);
+}
+.linlt a.mel01:hover {
+	background: none; border: 1px solid rgb(255, 255, 255); border-image: none;
+}
+@media screen and (max-width:1700px)
+{
+.textimg {
+	top: 120px;
+}
+}
+@media screen and (max-width:1000px)
+{
+.setimg {
+	padding-top: 50px;
+}
+.linlt {
+	margin-top: 40px;
+}
+.linlt a {
+	margin-bottom: 5px;
+}
+}
+.textimg {
+	left: 18%; top: 130px; width: 30%; position: absolute;
+}
+.textimg img {
+	transition:0.8s linear; left: -100px; width: 100%; position: relative; opacity: 0;
+}
+.flex-active-slide .textimg img {
+	transition:0.8s linear; left: 0px; opacity: 1;
+}
+.textimg p {
+	transition:0.8s linear; text-align: center; margin-top: 15px; position: relative; opacity: 0;
+}
+.flex-active-slide .textimg p {
+	transition:0.8s linear; opacity: 1;
+}
+.textimg p a {
+	margin: 0px 5px 5px; width: 100px; height: 32px; text-align: center; line-height: 30px; display: inline-block;
+}
+.textimg p a.mel01 {
+	background: rgb(230, 0, 18); border: 1px solid rgb(230, 0, 18); border-image: none; color: rgb(255, 255, 255);
+}
+.textimg p a.mel02:hover {
+	background: rgb(230, 0, 18); border: 1px solid rgb(230, 0, 18); border-image: none; color: rgb(255, 255, 255);
+}
+.textimg p a.mel022 {
+	background: rgb(230, 0, 18); border: 1px solid rgb(230, 0, 18); border-image: none; color: rgb(255, 255, 255);
+}
+.textimg p a.mel021:hover {
+	background: rgb(230, 0, 18); border: 1px solid rgb(230, 0, 18); border-image: none; color: rgb(255, 255, 255);
+}
+.olots p a.mel01 {
+	background: rgb(230, 0, 18); border: 1px solid rgb(230, 0, 18); border-image: none; color: rgb(255, 255, 255);
+}
+.textimg p a.mel02 {
+	background: none; border: 1px solid rgb(255, 255, 255); border-image: none; color: rgb(255, 255, 255);
+}
+.textimg p a.mel01:hover {
+	background: none; border: 1px solid rgb(255, 255, 255); border-image: none; color: rgb(255, 255, 255);
+}
+.olots p a.mel01:hover {
+	background: none; border: 1px solid rgb(255, 255, 255); border-image: none; color: rgb(255, 255, 255);
+}
+.textimg p a.mel021 {
+	background: none; border: 1px solid rgb(89, 89, 89); border-image: none; color: rgb(89, 89, 89);
+}
+.textimg p a.mel022:hover {
+	background: none; border: 1px solid rgb(89, 89, 89); border-image: none; color: rgb(89, 89, 89);
+}
+.coxt {
+	left: 34%; top: 700px; width: 30%; position: absolute;
+}
+.coxt-01 {
+	left: 23%; top: 550px; width: 30%; position: absolute;
+}
+.coxt-01 p {
+	padding-top: 50px;
+}
+.coxt-01 p a.mel021 {
+	border: 1px solid rgb(255, 255, 255); border-image: none; color: rgb(255, 255, 255);
+}
+.coxt02 {
+	left: 34%; top: auto; width: 30%; bottom: 60px; position: absolute;
+}
+.siloxt {
+	left: 30%; top: auto; bottom: 150px;
+}
+.siloxt p {
+	margin-top: 50px;
+}
+.siloxt-01 {
+	left: 46%; top: auto; bottom: 480px;
+}
+.siloxt-01 p {
+	text-align: left; padding-left: 100px; margin-top: 0px;
+}
+.fsiloxt-01 {
+	left: 57%; top: auto; bottom: 450px;
+}
+.fsiloxt-01 img {
+	transition:0.8s linear; width: 60%; padding-bottom: 50px; margin-left: 40px; opacity: 0;
+}
+.fsiloxt-01 p {
+	text-align: left; padding-left: 100px; margin-top: 0px;
+}
+.siloxt-02 {
+	left: 26%; top: auto; width: 45%; bottom: 120px;
+}
+.siloxt-02 p {
+	text-align: center; margin-top: 20px;
+}
+.coxt-m {
+	left: 25%; top: auto; width: 32%; bottom: 180px;
+}
+.coxt-m p {
+	padding-right: 160px; margin-top: 50px;
+}
+.coxt-m p a.mel021 {
+	border: 1px solid rgb(255, 255, 255); border-image: none; color: rgb(255, 255, 255);
+}
+.coxt-m p a.mel022:hover {
+	border: 1px solid rgb(255, 255, 255); border-image: none; color: rgb(255, 255, 255);
+}
+.floit {
+	left: 48%; width: 16%; bottom: 250px;
+}
+.floit-01 {
+	left: 41.5%; width: 16%; bottom: 80px;
+}
+.floit p {
+	text-align: center;
+}
+.floit p {
+	text-align: center;
+}
+.xilit {
+	left: 55%; top: auto; width: 15%; bottom: 120px;
+}
+.xilit p {
+	padding: 0px; text-align: center; margin-top: 45px;
+}
+.cplt dl dt a img {
+	transition:0.5s;
+}
+.cplt dl dt a:hover img {
+	transition:0.5s; transform: scale(1.1);
+}
+.solto {
+	left: 24%;
+}
+.falost {
+	left: 0px; top: 50px; width: 100%;
+}
+.falost .imgs01 {
+	transition:1s; top: 0px; text-align: center; position: relative;
+}
+.falost .imgs01 img {
+	width: 15%;
+}
+.falost .imgs02 {
+	transition:1s; top: 100px; position: relative;
+}
+.falost .imgs02 img {
+	width: 100%;
+}
+.falost p {
+	text-align: center;
+}
+.falost img {
+	left: 0px;
+}
+.flex-active-slide .falost .imgs01 {
+	transition:1s; top: 100px;
+}
+.flex-active-slide .falost .imgs02 {
+	transition:1s; top: 0px;
+}
+@media screen and (max-width:1000px)
+{
+.flex-active-slide .falost .imgs01 {
+	top: 50px;
+}
+}
+@media screen and (max-width:640px)
+{
+.siloxt-01 p {
+	padding-left: 0px;
+}
+.falost div {
+	display: none;
+}
+}
+.banner-mob-a {
+	
+}
+.animat-1 {
+	left: 12%; width: 60%; bottom: 0%;
+}
+.animat-1 img {
+	transition:0.8s linear; left: auto; bottom: -50px; position: absolute; opacity: 0;
+}
+.flex-active-slide .animat-1 img {
+	transition:0.8s linear; bottom: 0px; position: relative; opacity: 1;
+}
+.animat-2 {
+	left: 64%; top: 16%; width: 25%;
+}
+.animat-2 img {
+	transition:0.8s linear; left: auto; bottom: -50px; position: absolute; opacity: 0;
+}
+.flex-active-slide .animat-2 img {
+	transition:0.8s linear; bottom: 0px; position: relative; opacity: 1;
+}
+.animat-3 {
+	left: 66%; top: 50%; width: 20%;
+}
+.animat-4 {
+	left: 49%; top: auto; bottom: 0px;
+}
+.animat-4 img {
+	transition:1s linear; left: auto; bottom: -100px; position: absolute; opacity: 0;
+}
+.flex-active-slide .animat-4 img {
+	transition:0.8s linear; bottom: 0px; position: relative; opacity: 1;
+}
+#mediaplayer {
+	overflow: hidden; position: relative;
+}
+#mediaplayer_logo {
+	display: none;
+}
+#mediaplayer video {
+	width: 100%; position: relative; z-index: 2;
+}
+.jwpreview {
+	width: 100%;
+}
+.video-img {
+	left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; position: absolute;
+}
+.video-img img {
+	width: 100%; display: block;
+}
+.banner-pc-a {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;
+}
+.feel-video {
+	background-position: center; height: 708px; padding-top: 40px; padding-left: 160px; box-sizing: border-box; background-repeat: no-repeat; background-size: auto 100%;
+}
+.feel-video video {
+	position: relative; z-index: 2;
+}
+.feel-video-paly {
+	width: 996px; height: 562px; position: relative;
+}
+.feel-video-img {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;
+}
+.feel-video-img img {
+	width: 100%; display: block;
+}
+@media screen and (max-width:1440px)
+{
+.xilit {
+	bottom: 60px;
+}
+.xilit p {
+	margin-top: 20px;
+}
+.feel-video {
+	height: 670px; padding-top: 60px; padding-left: 30px;
+}
+.feel-video-paly {
+	width: 880px;
+}
+}
+@media screen and (max-width:1300px)
+{
+.textimg {
+	top: 50px;
+}
+.coxt02 {
+	top: auto; bottom: 60px;
+}
+.siloxt {
+	top: auto; bottom: 40px;
+}
+.xilit {
+	top: auto; bottom: 50px;
+}
+.animat-1 {
+	bottom: 0px;
+}
+.animat-2 {
+	top: 16%;
+}
+.animat-3 {
+	top: 55%;
+}
+.animat-4 {
+	top: 55%;
+}
+.siloxt-02 {
+	top: auto;
+}
+.fded {
+	padding-top: 200px;
+}
+}
+@media screen and (max-width:970px)
+{
+.feel-video {
+	padding: 30px; height: 492px;
+}
+.feel-video-paly {
+	width: 100%;
+}
+}
+@media screen and (max-width:768px)
+{
+.textimg {
+	top: 20px;
+}
+.coxt02 {
+	top: auto; bottom: 30px;
+}
+.textimg p a {
+	width: 60px; height: 25px; line-height: 23px; font-size: 12px; display: inline-block;
+}
+.siloxt {
+	top: auto; bottom: 30px;
+}
+.siloxt p {
+	margin-top: 20px;
+}
+.floit {
+	width: 20%;
+}
+.xilit {
+	top: auto; bottom: 50px;
+}
+.calst > .all-zx {
+	margin: 0px; width: 33%; height: 50px; text-align: center; line-height: 50px; font-size: 14px;
+}
+.cholt {
+	width: 33%; height: 50px; line-height: 50px;
+}
+.cholt span {
+	line-height: 50px; font-size: 14px;
+}
+.calst {
+	height: 51px;
+}
+.flxt {
+	display: none;
+}
+.banner-pc-a {
+	display: none;
+}
+.banner-mob-a {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;
+}
+.siloxt-02 {
+	top: auto;
+}
+}
+.pickt-link {
+	left: 50%; width: 220px; bottom: 100px; margin-left: -110px; position: absolute;
+}
+.pickt-link a {
+	margin: 0px 5px; border: 1px solid rgb(255, 255, 255); border-image: none; width: 100px; height: 35px; text-align: center; color: rgb(255, 255, 255); line-height: 33px; float: left; display: inline-block;
+}
+.pickt-link a.mel01 {
+	border-color: rgb(230, 0, 18); background-color: rgb(230, 0, 18);
+}
+.pickt-link a.mel01:hover {
+	background: none; border: 1px solid rgb(255, 255, 255); border-image: none;
+}
+.capltk {
+	margin-top: 50px;
+}
+.capltk li {
+	width: 50%; float: left;
+}
+.capltk li a {
+	width: 100%; height: 100%; overflow: hidden; display: block; position: relative;
+}
+.bg-sol {
+	background: url("../images/bg-col.png"); transition:0.5s; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: 1; opacity: 0; -moz-opacity: 0; -khtml-opacity: 0;
+}
+.glisx {
+	left: 0px; top: 50%; width: 100%; text-align: center; color: rgb(255, 255, 255); margin-top: -42px; position: absolute; z-index: 2; opacity: 0; -moz-opacity: 0; -khtml-opacity: 0;
+}
+.glisx .txtx {
+	height: 30px; line-height: 30px; overflow: hidden; font-size: 20px; font-weight: bold;
+}
+.mosl {
+	margin-top: 20px;
+}
+.mosl span {
+	border: 1px solid rgb(255, 255, 255); border-image: none; width: 100px; height: 35px; text-align: center; line-height: 35px; display: inline-block;
+}
+.capltk li a:hover .bg-sol {
+	transition:0.5s; opacity: 1; -moz-opacity: 1; -khtml-opacity: 1;
+}
+.capltk li a:hover .glisx {
+	transition:0.5s 0.2s; opacity: 1; -moz-opacity: 1; -khtml-opacity: 1;
+}
+.palsi {
+	background: url("../images/lopd.jpg") no-repeat center / cover; padding-bottom: 50px;
+}
+.lolsox {
+	background: rgba(255, 255, 255, 0.6); margin-top: 50px;
+}
+.lolsox li {
+	border: 1px solid rgb(221, 221, 221); border-image: none; width: 33.3%; float: left; position: relative;
+}
+.lolsox li a {
+	width: 100%; display: block;
+}
+.lolsox li a .fals {
+	background: rgb(231, 0, 18); transition:0.5s; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: 1; opacity: 0; -moz-opacity: 0;
+}
+.lolsox li a .belis {
+	transition:0.5s; left: 0px; top: 50%; width: 100%; height: 110px; text-align: center; color: rgb(255, 255, 255); margin-top: -55px; position: absolute; z-index: 2; opacity: 0; -moz-opacity: 0;
+}
+.lolsox li a:hover .fals {
+	transition:0.8s; opacity: 1; -moz-opacity: 1;
+}
+.lolsox li a:hover .belis {
+	transition:0.8s; opacity: 1; -moz-opacity: 1;
+}
+.lolsox li a .belis .tit {
+	height: 30px; line-height: 30px; overflow: hidden; font-size: 18px;
+}
+.lolsox li a .belis .con {
+	padding: 0px 15px; height: 75px; line-height: 25px; overflow: hidden; margin-top: 5px;
+}
+@media screen and (max-width:640px)
+{
+.capltk {
+	padding: 0px 2%; margin-top: 20px;
+}
+.capltk li {
+	width: 100%;
+}
+.glisx {
+	top: 0px; color: rgb(51, 51, 51); margin-top: 0px; position: relative; opacity: 1; -moz-opacity: 1; -khtml-opacity: 1;
+}
+.glisx .txtx {
+	font-size: 14px;
+}
+.mosl {
+	display: none;
+}
+.lolsox {
+	margin-top: 20px;
+}
+.lolsox li {
+	width: 50%;
+}
+.palsi {
+	padding-bottom: 20px;
+}
+.capltk li a:hover .bg-sol {
+	opacity: 0; -moz-opacity: 0; -khtml-opacity: 0;
+}
+.lolsox li a:hover .fals {
+	opacity: 0; -moz-opacity: 0;
+}
+.lolsox li a:hover .belis {
+	opacity: 0; -moz-opacity: 0;
+}
+.pickt-link {
+	bottom: 20px;
+}
+}
+.meios {
+	left: 12%; width: 20%; bottom: 250px;
+}
+.meios p {
+	padding-right: 0px;
+}
+@media screen and (max-width:1300px)
+{
+.meios {
+	top: auto; bottom: 200px;
+}
+}
+@media screen and (max-width:1000px)
+{
+.meios {
+	bottom: 150px;
+}
+}
+@media screen and (max-width:640px)
+{
+.meios {
+	left: 0px; width: 100%;
+}
+.coxt-m p {
+	padding-right: 0px;
+}
+}
+.numit {
+	left: 12%; width: 20%; bottom: 280px; position: absolute;
+}
+.numit p.tr {
+	margin-top: 20px;
+}
+.numit p.tr span {
+	background: rgb(230, 0, 18); border: 1px solid rgb(230, 0, 18); border-image: none; width: 100px; height: 32px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; display: inline-block;
+}
+.numit p.tr span:hover {
+	background: none; border-color: rgb(255, 255, 255);
+}
+@media screen and (max-width:1500px)
+{
+.numit {
+	bottom: 250px;
+}
+}
+@media screen and (max-width:1000px)
+{
+.numit {
+	bottom: 150px;
+}
+}
+@media screen and (max-width:750px)
+{
+.numit {
+	width: 100px; bottom: 50px;
+}
+.numit p.tr {
+	margin-top: 5px;
+}
+}
+@media screen and (max-width:370px)
+{
+.numit {
+	left: 5%; bottom: 20px;
+}
+.numit img {
+	width: 80%;
+}
+}
+.olots {
+	transition:0.8s; left: 30%; width: 70%; bottom: 25%; position: absolute; opacity: 0; -moz-opacity: 0;
+}
+.olots img {
+	width: 60%;
+}
+.olots p {
+	text-align: left; padding-left: 20%;
+}
+.olots p a {
+	margin: 0px 5px 5px; width: 100px; height: 32px; text-align: center; line-height: 30px; display: inline-block;
+}
+.olots p a.mel02 {
+	background: none; border: 1px solid rgb(255, 255, 255); border-image: none; color: rgb(255, 255, 255);
+}
+.olots p a.mel02:hover {
+	background: rgb(230, 0, 18); border-color: rgb(230, 0, 18);
+}
+.flex-active-slide .olots {
+	transition:0.8s; bottom: 15%; opacity: 1; -moz-opacity: 1;
+}
+.caolps {
+	bottom: 120px;
+}
+@media screen and (max-width:640px)
+{
+.olots {
+	padding: 0px 5%; left: 0px; width: 100%; bottom: 0px;
+}
+.olots p a.mel02 {
+	background: rgb(255, 255, 255); margin: 0px; width: 100%; color: rgb(51, 51, 51);
+}
+.flex-active-slide .olots {
+	bottom: 20px;
+}
+.olots p {
+	padding-left: 0px;
+}
+.olots p a {
+	margin: 0px 0px 5px; width: 100%;
+}
+.olots img {
+	display: none;
+}
+}
+.tps a {
+	background: rgb(0, 0, 0); width: 100%; display: block;
+}
+.milit img {
+	width: 100%; height: auto; display: block;
+}
+.vods {
+	background: url("../images/bgsx.jpg") no-repeat center / cover rgb(0, 0, 0); text-align: center;
+}
+.vods video {
+	margin: 0px auto; width: 100%; position: relative; z-index: 1; max-width: 720px;
+}
+.vods .bflt {
+	left: 50%; top: 50%; margin-top: -29px; margin-left: -29px; position: absolute; z-index: 2; cursor: pointer;
+}
+.tps {
+	position: relative;
+}
+.tps a {
+	background: rgb(255, 255, 255); top: 36%; width: 9%; height: 30%; display: block; position: absolute; opacity: 0; -moz-opacity: 0; -khtml-opacity: 0;
+}
+.tps a.mols01 {
+	left: 48%; top: 45%; width: 13%; height: 44%;
+}
+.tps a.mols02 {
+	left: 64%; top: 45%; width: 13%; height: 44%;
+}
+.tps a.mols03 {
+	left: 31%; top: 37%; width: 13%; height: 50%;
+}
+.tps a.mols04 {
+	left: 56%; top: 37%; width: 13%; height: 50%;
+}
+.tps a.mols05 {
+	left: 31%; top: 37%; width: 13%; height: 50%;
+}
+.tps a.mols06 {
+	left: 48%; top: 37%; width: 13%; height: 50%;
+}
+.tps a.mols07 {
+	left: 64%; top: 37%; width: 13%; height: 50%;
+}
+.tps a.mols08 {
+	left: 21%; top: 23%; width: 10%; height: 28%;
+}
+.tps a.mols09 {
+	left: 33%; top: 23%; width: 10%; height: 28%;
+}
+.tps a.mols10 {
+	left: 45%; top: 23%; width: 10%; height: 28%;
+}
+.tps a.mols11 {
+	left: 57%; top: 23%; width: 10%; height: 28%;
+}
+.tps a.mols12 {
+	left: 69%; top: 23%; width: 10%; height: 28%;
+}
+.tps a.mols13 {
+	left: 21%; top: 52%; width: 10%; height: 28%;
+}
+.tps a.mols14 {
+	left: 33%; top: 52%; width: 10%; height: 28%;
+}
+.tps a.mols15 {
+	left: 45%; top: 52%; width: 10%; height: 28%;
+}
+.tps a.mols16 {
+	left: 57%; top: 52%; width: 10%; height: 28%;
+}
+.tps a.mols17 {
+	left: 69%; top: 52%; width: 10%; height: 28%;
+}
+.f-milit img {
+	width: 100%; height: auto; display: block;
+}
+.f-tps {
+	position: relative;
+}
+.f-tps-01 {
+	position: relative;
+}
+.f-tps a {
+	background: rgb(204, 204, 204); width: 10%; height: 33%; display: block; position: absolute; opacity: 0; -moz-opacity: 0; -khtml-opacity: 0;
+}
+.f-tps a.link01 {
+	left: 23%; top: 7%;
+}
+.f-tps a.link02 {
+	left: 37%; top: 7%;
+}
+.f-tps a.link03 {
+	left: 53%; top: 7%;
+}
+.f-tps a.link04 {
+	left: 69%; top: 7%;
+}
+.f-tps a.link05 {
+	left: 23%; top: 47%;
+}
+.f-tps a.link06 {
+	left: 37%; top: 47%;
+}
+.f-tps a.link07 {
+	left: 53%; top: 47%;
+}
+.f-tps a.link08 {
+	left: 69%; top: 47%;
+}

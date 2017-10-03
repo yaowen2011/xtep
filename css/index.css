@@ -8,22 +8,26 @@
     overflow: hidden;
 }
 .slide-pics ul {
-    width: 400%;
+    width: 100%;
 }
 .slide-pics ul li {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     opacity: 0;
-    float: left;
-    /*transition: all .6s ease;*/
+    width: 100%;
+    z-index : 1;
+    /*box-sizing: border-box;*/
+    transition: all .6s ease-in;
 }
 .slide-pics ul li img {
     vertical-align: middle;
+    width: 100%;
 }
 .slide-pics ul li.current {
+    position: relative;
     opacity: 1;
-    z-index: 2;
+    z-index: 10;
     /*transition: all .6s ease;*/
 
 }
@@ -76,6 +80,29 @@
     color: #eee;
 }
 
+.slide-pics .page-control {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 11;
+}
+
+.slide-pics .page-control li {
+    display: inline-block;
+    width: 40px;
+    height: 3px;
+    margin: 0 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.slide-pics .page-control li.selector {
+
+    height: 5px;
+
+    background-color: red;
+}
 .slide-pics .pos1 {
     position: absolute;
     top: 45%;
@@ -141,9 +168,66 @@
 
 }
 
-.index-main .ptilxt a {
+.index-main .ptilxt a{
     color: #fff;
 
+}
+.index-main .ptilxt a dt {
+    position: relative;
+    overflow: hidden;
+}
+
+.index-main .ptilxt a:hover .line01, .index-main .ptilxt a:hover .line03{
+    width: 100%;
+}
+
+.index-main .ptilxt a:hover .line02, .index-main .ptilxt a:hover .line04{
+    height: 100%;
+}
+
+.index-main .ptilxt a:hover img {
+    transform: scale(1.2);
+}
+
+.index-main .ptilxt a img {
+    transition: all 1s;
+}
+
+.index-main .ptilxt a span {
+    position: absolute;
+
+    height: 3px;
+    width: 0px;
+    background-color: red;
+    /*z-index: 10;*/
+
+    transition: all 1s;
+}
+
+.index-main .ptilxt a .line01 {
+    top: 0;
+    left: 0;
+}
+
+.index-main .ptilxt a .line02 {
+    top: 0;
+    right: 0;
+    height: 0px;
+    width: 3px;
+}
+
+.index-main .ptilxt a .line03 {
+    bottom: 0;
+    right: 0;
+    height: 3px;
+    width: 0px;
+}
+
+.index-main .ptilxt a .line04 {
+    bottom: 0;
+    left: 0;
+    height: 0px;
+    width: 3px;
 }
 
 .index-main .ptilxt dd {
@@ -198,10 +282,29 @@
 }
 
 .news .box-con {
+    position: relative;
     padding-top: 40px;
     padding-bottom: 80px;
     background: #fff url("../images/wz-bg.jpg") center bottom no-repeat;
     background-size: 100% auto;
+
+}
+
+.news .box-con .slideshow {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+}
+
+.box-con .slideshow ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 400%;
+}
+
+.box-con .slideshow ul li {
+    width: 25%;
 }
 
 .news .box-con .con-l {
@@ -217,6 +320,43 @@
     width: 49%;
     padding-top: 28px;
 }
+
+.news .box-con .arrow {
+
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20;
+    /*background-color: #fff;*/
+}
+
+.news .arrow-l,.news .arrow-r {
+    /*position: absolute;*/
+    /*top: 0;*/
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ccc;
+    color: red;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.news .arrow-l {
+    float: left;
+    margin-left: -50px;
+}
+
+
+.news .arrow-r {
+    float: right;
+    margin-right: -50px;
+}
+
+
 
 .news .time span {
     font-size: 18px;
